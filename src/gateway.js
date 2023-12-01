@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import Instagram from "./images/gateway/Instagram.png";
 import Facebook from "./images/gateway/Facebook.png";
 import Twitter from "./images/gateway/Twitter.png";

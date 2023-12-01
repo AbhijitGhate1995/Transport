@@ -9,7 +9,6 @@ import Container from "./images/contact/container.jpg";
 import Mountain from "./images/contact/mountain.jpg";
 import Plane from "./images/contact/plain.jpg";
 import Snow from "./images/contact/snowmountain.jpg";
-import { InputNumber } from 'primereact/inputnumber';
 import "./App.css";
 
 const ContactData = () => {
