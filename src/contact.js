@@ -105,7 +105,7 @@ const ContactData = () => {
               <div
                 className="explore-grad explore-hover mt-6 krubFont"
               >
-                <span className="text-[16px] xl:text-[0.833vw] flex ml-8 mt-4 font-semibold">
+                <span className="text-[16px] xl:text-[0.833vw] flex ml-8 mt-4 font-semibold cursor-pointer">
                   Submit Message
                 </span>
               </div>

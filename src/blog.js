@@ -227,7 +227,7 @@ const BlogData = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center items-center">
+          <div className="w-full flex justify-center items-center cursor-pointer">
             <div className="morework-grad morework-hover flex items-center justify-center">
               <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont">
                 More Blog

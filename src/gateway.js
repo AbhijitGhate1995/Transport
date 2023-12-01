@@ -97,7 +97,7 @@ const GateWayData = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-start items-center">
+      <div className="flex justify-start items-center cursor-pointer">
         <div className="xl:ml-80 xl:mt-36 ml-40 mt-20">
           <div className="grid text-[14px] xl:text-[0.729vw]">
             <div
@@ -110,7 +110,7 @@ const GateWayData = () => {
               </span>
             </div>
             <div
-              className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont"
+              className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"
               style={{ lineHeight: "normal" }}
             >
               <span>Your Gateway</span>
@@ -132,7 +132,7 @@ const GateWayData = () => {
               <span>diam interdum nulla, sed laoreet risus lectus.</span>
             </div>
             <div
-              className="explore-grad explore-hover mt-6 krubFont"
+              className="explore-grad explore-hover mt-6 krubFont cursor-pointer"
        
             >
               <span className="text-[16px] xl:text-[0.833vw] flex ml-12 mt-4 font-medium">

@@ -122,7 +122,7 @@ const FooterData = () => {
               <InputText type="text" className="px-2 xl:h-12 h-12" placeholder=" Email*" />
               <div className="grid xl:grid-cols-2 grid-cols-1 gap-2">
                 <div
-                  className="send-grad send-hover mt-6 flex gap-2 krubFont"
+                  className="send-grad send-hover mt-6 flex gap-2 krubFont cursor-pointer"
                 >
                   <span className="text-[16px] xl:text-[0.833vw] flex items-center ml-7 font-semibold">
                     Send Now

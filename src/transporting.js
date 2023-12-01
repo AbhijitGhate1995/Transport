@@ -52,7 +52,7 @@ const TransportingData = () => {
           </div>
         </div>
       </div>
-      <div className="w-full transporting-grad flex justify-center items-center top-[-100px]">
+      <div className="w-full transporting-grad flex justify-center items-center top-[-100px] cursor-pointer">
         <div className="morework-grad morework-hover flex items-center justify-center">
           <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont">
             More Work
