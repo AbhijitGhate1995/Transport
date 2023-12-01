@@ -1,5 +1,5 @@
-import smith from "/wamp64/www/gateway-transport/src/images/testimonial/smith.png";
-import martin from "/wamp64/www/gateway-transport/src/images/testimonial/martin.png";
+import smith from "/wamp64/www/Transport/src/images/testimonial/smith.png";
+import martin from "/wamp64/www/Transport/src/images/testimonial/martin.png";
 
 export const ProductService = {
     getProductsData() {
