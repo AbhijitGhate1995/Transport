@@ -9,7 +9,7 @@ const TransportingData = () => {
         Transporting Across The World
       </div>
       <div className="flex justify-center items-center">
-        <div className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 images-transport z-10 gap-8">
+        <div className="grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 z-10 gap-8">
           <div className="tanker-bg flex flex-col justify-end">
             <span className="text-[20px] xl:text-[1.042vw] text-white ml-6 rubikFont">
               Liquid Transportation
