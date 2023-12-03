@@ -4,7 +4,7 @@ import "./App.css";
 
 const TransportingData = () => {
   return (
-    <div className="relative">
+    <div className="relative mt-20">
       <div className="w-full text-[35px] xl:text-[1.823vw] font-semibold flex justify-center items-center mb-10 rubikFont">
         Transporting Across The World
       </div>
