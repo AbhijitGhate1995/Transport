@@ -65,7 +65,7 @@ const GateWayData = () => {
   return (
     <div className="gateway-bg pb-20">
       <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
-        <div className="flex justify-end items-center">
+        <div className="flex justify-end items-center Menu-class">
           <Menubar
             model={items}
             className={`px-4 py-4 bg-[#1F2A69] rounded-lg text-white ${
