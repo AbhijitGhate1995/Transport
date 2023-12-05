@@ -65,7 +65,7 @@ const GateWayData = () => {
   return (
     <div className="gateway-bg pb-20">
       <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
-        <div className="flex justify-end items-center">
+        <div className="lg:hidden flex justify-end items-center">
           <Menubar
             model={items}
             className={`px-4 py-4 bg-[#1F2A69] rounded-lg text-white ${
@@ -74,22 +74,24 @@ const GateWayData = () => {
             onClick={handleMenubarClick}
           />
         </div>
-        <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
-          <div className="flex-1">
-            <div className="border-r-2 border-[#FFFFFF33] pr-6">Home</div>
-          </div>
-          <div className="flex-1">
-            <div className="border-r-2 border-[#FFFFFF33] pr-6">About</div>
-          </div>
-
-          <Menubar model={data} className="pages-icon flex-1" />
-          <div className="flex-1">
-            <div className="border-r-2 border-[#FFFFFF33] pr-6 border-l-2 pl-6">
-              Project
+        <div className="hidden lg:flex justify-center items-center">
+          <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
+            <div className="flex-1">
+              <div className="border-r-2 border-[#FFFFFF33] pr-6">Home</div>
             </div>
-          </div>
+            <div className="flex-1">
+              <div className="border-r-2 border-[#FFFFFF33] pr-6">About</div>
+            </div>
 
-          <div className="flex-1">Contact</div>
+            <Menubar model={data} className="pages-icon flex-1" />
+            <div className="flex-1">
+              <div className="border-r-2 border-[#FFFFFF33] pr-6 border-l-2 pl-6">
+                Project
+              </div>
+            </div>
+
+            <div className="flex-1">Contact</div>
+          </div>
         </div>
 
         <div className="flex justify-center items-center gap-6">

@@ -234,34 +234,7 @@
   background-color: #fff; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #fff, #fff);
 }
-/* Media query for screens below 1000px */
-@media screen and (max-width: 999px) {
-  .MenuBar-class {
-    display: block;
-  }
 
-  .nav-menu-button {
-    display: none;
-  }
-}
-/* Media query for screens above or equal to 1000px */
-@media screen and (min-width: 1000px) {
-  .MenuBar-class {
-    display: none;
-  }
-
-  
-}
-/* @media screen and (min-width: 1000px) {
-  .nav-menu-button {
-    display: none;
-  }
-} 
- @media screen and (min-width: 1000px) {
-  .MenuBar-class {
-    display: none;
-  }
-} */
 .p-menuitem-text{
   color: #fff;
 }
