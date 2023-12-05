@@ -236,7 +236,7 @@
 }
 /* Media query for screens below 1000px */
 @media screen and (max-width: 999px) {
-  .Menu-class {
+  .MenuBar-class {
     display: block;
   }
 
@@ -246,9 +246,11 @@
 }
 /* Media query for screens above or equal to 1000px */
 @media screen and (min-width: 1000px) {
-  .Menu-class {
+  .MenuBar-class {
     display: none;
   }
+
+  
 }
 /* @media screen and (min-width: 1000px) {
   .nav-menu-button {
