@@ -15,7 +15,7 @@ const ContactData = () => {
   const [value, setValue] = useState("");
   return (
     <div className="bg-[#091242]">
-      <div className="mx-40 my-40 pt-24 pb-20">
+      <div className="mx-48 my-40 pt-24 pb-20">
         <div className="w-full grid xl:grid-cols-2 grid-cols-1 gap-8">
           <div className="grid gap-2">
             <div

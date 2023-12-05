@@ -11,7 +11,7 @@ import "./App.css";
 
 const FooterData = () => {
   return (
-    <div className="grid">
+    <div className="grid mt-24">
       <div>
         <img src={containerStorage} alt="container" />
       </div>
@@ -56,7 +56,7 @@ const FooterData = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="w-full flex justify-evenly items-center">
           <div className="grid xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-8">
             <div className="grid gap-4">
               <div
@@ -117,7 +117,7 @@ const FooterData = () => {
               </div>
             </div>
             <div
-              className="grid text-16px xl:text-[0.833vw] inputclass krubFont"
+              className="flex flex-col text-16px xl:text-[0.833vw] inputclass krubFont"
             >
               <InputText type="text" className="px-2 xl:h-12 h-12" placeholder=" Email*" />
               <div className="grid xl:grid-cols-2 grid-cols-1 gap-2">

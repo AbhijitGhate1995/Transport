@@ -34,7 +34,7 @@ const BlogData = () => {
                     className="h-[50px] w-[50px]"
                   />
                   <div className="grid">
-                    <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont">
+                    <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont ml-1">
                       08
                     </span>
                     <span className="text-[#666C89] text-[16px] xl:text-[0.833vw] krubFont">
@@ -109,7 +109,7 @@ const BlogData = () => {
                       className="h-[50px] w-[50px]"
                     />
                     <div className="grid">
-                      <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont">
+                      <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont ml-2">
                         12
                       </span>
                       <span className="text-[#666C89] text-[16px] xl:text-[0.833vw] krubFont">
@@ -174,7 +174,7 @@ const BlogData = () => {
                       className="h-[50px] w-[50px]"
                     />
                     <div className="grid">
-                      <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont">
+                      <span className="text-[40px] font-semibold xl:text-[2.083vw] rubikFont ml-1">
                         25
                       </span>
                       <span className="text-[#666C89] text-[16px] xl:text-[0.833vw] krubFont">

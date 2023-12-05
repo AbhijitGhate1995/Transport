@@ -100,7 +100,7 @@
   position: relative;
   width: 100%;
   background-color: #ffb629; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to left right, #ffb629, #ffd7a6);
+  background-image: linear-gradient(to right, #ffb629, #ffd7a6);
 }
 .transporting-grad::before {
   content: "";
@@ -122,7 +122,7 @@
   position: relative;
   z-index: 2;
   background-color: #1f2a69; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, #091242, #1f2a69);
+  background-image: linear-gradient(to right, #091242, #1f2a69);
 }
 .morework-hover:hover{
   height: 50px;
@@ -186,7 +186,7 @@
   position: absolute;
   z-index: 10;
   background-color: #ffb629; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to left right, #ffb629, #ffd7a6);
+  background-image: linear-gradient(to top, #ffb629, #ffd7a6);
 }
 .socialmedia-grad {
   height: 60px;
@@ -194,7 +194,7 @@
   position: absolute;
   z-index: 2;
   background-color: #ffb629; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to left right, #ffb629, #ffd7a6);
+  background-image: linear-gradient(to top, #ffb629, #ffd7a6);
 }
 .socialrebeca-grad {
   height: 60px;
@@ -202,7 +202,7 @@
   position: absolute;
   z-index: 2;
   background-color: #ffb629; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to left right, #ffb629, #ffd7a6);
+  background-image: linear-gradient(to top, #ffb629, #ffd7a6);
 }
 .inputclass .p-inputtext {
   background-color: #091242 !important;
@@ -290,8 +290,8 @@
 .p-menuitem .p-menuitem-active:hover{
   background-color:transparent ;
   border-color:transparent ;
-
 }
+
 .p-menuitem .p-menuitem-active{
   border-color:transparent ;
 }
