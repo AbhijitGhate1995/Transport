@@ -281,7 +281,7 @@
   border-color:transparent ;
 
 }
-.p-icon{
+.pages-icon .p-icon{
   color: #fff;
 }
 .p-menubar{
@@ -302,4 +302,8 @@
 }
 .p-submenu-list{
   background-color:transparent ;
+}
+.p-carousel-prev .p-link{
+  background-color: #091242;
+  color: #091242;
 }

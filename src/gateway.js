@@ -80,13 +80,13 @@ const GateWayData = () => {
         <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
           <div className="border-r-2 border-[#FFFFFF33] pr-4">Home</div>
           <div className="border-r-2 border-[#FFFFFF33] pr-4">About</div>
-          <Menubar model={data} className=""/>
+          <Menubar model={data} className="pages-icon"/>
           <div className="border-r-2 border-[#FFFFFF33] pr-4 border-l-2 pl-4">Project</div>
           <div>Contact</div>
         </div>
 
         <div className="flex justify-center items-center gap-6">
-          <div className="px-20 py-6 flex justify-start items-center gap-6 ">
+          <div className="px-24 py-6 flex justify-start items-center gap-6 ">
             <img src={Instagram} alt="instagram" />
             <img src={Facebook} alt="Facebook" />
             <img src={Twitter} alt="Twitter" />

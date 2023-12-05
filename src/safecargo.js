@@ -10,7 +10,7 @@ const SafeCargoData = () => {
   return (
     <div className="m-10">
       <div className="xl:flex flex-wrap">
-        <div className="xl:ml-72 xl:mt-12 ml-40 mt-20">
+        <div className="xl:ml-52 xl:mt-12 ml-40 mt-20">
           <div className="flex rubikFont">
             <img src={Logistic} alt="what we do" />
             <span className="bg-[#E8E8E880] px-2 py-1 xl:text-[0.729vw] text-[14px]">

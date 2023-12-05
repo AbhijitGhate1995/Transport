@@ -12,7 +12,7 @@ const ContainerData = () => {
       <div className="container-bg">
         <div className="container-wrapper">
           <div className="flex justify-start items-center">
-            <div className="xl:ml-72 xl:mt-96 ml-40 mt-28 bg-white text-black px-28 py-10 min-w-fit max-w-max  xl:flex flex-wrap">
+            <div className="xl:ml-72 xl:mt-96 ml-40 mt-28 bg-white text-black px-16 py-10 min-w-fit max-w-max  xl:flex flex-wrap">
               <div className="grid xl:grid-cols-2 grid-cols-1 text-[14px] xl:text-[0.729vw]">
                 <div>
                   <div className="flex rubikFont">
