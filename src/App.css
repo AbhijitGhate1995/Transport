@@ -236,6 +236,9 @@
 }
 /* Media query for screens below 1000px */
 @media screen and (max-width: 999px) {
+  .Menu-class {
+    display: block;
+  }
 
   .nav-menu-button {
     display: none;
