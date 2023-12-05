@@ -13,11 +13,11 @@ import "./App.css";
 const PlaneData = () => {
   return (
     <div>
-      <div className="w-full 2xl:h-[770px] h-[700px] grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2">
+      <div className="w-full 2xl:h-[770px] xl:h-[740px] h-[700px] grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2">
         <div className="w-full bg-[#091242] relative">
           <div className="mt-24 xl:ml-20">
             <div className="">
-            <img src={plane} alt="plane" className="absolute z-[2]" />
+            <img src={plane} alt="plane" className="absolute z-[2]"/>
             </div>
           </div>
         </div>

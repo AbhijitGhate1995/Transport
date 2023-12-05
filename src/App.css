@@ -274,18 +274,30 @@
 .p-menuitem .p-menuitem-link{
   color:black;
   border-color:transparent ;
-
+  background-color: transparent;
 }
+.MenuBar-class .p-menuitem .p-menuitem-link{
+  color:black;
+  border-color:transparent ;
+  background-color: black;
+}
+
 .p-menuitem{
   color:#fff;
   border-color:transparent ;
-
+}
+.nav-menu-button .p-menuitem{
+  background-color: transparent;
+  border-color:transparent ;
 }
 .pages-icon .p-icon{
   color: #fff;
 }
 .p-menubar{
   background-color: transparent;
+}
+.nav-menu-button .p-menubar{
+  padding: 0px;
 }
 .p-menuitem .p-menuitem-active:hover{
   background-color:transparent ;
@@ -298,7 +310,11 @@
 .p-menuitem-link{
   background-color:transparent ;
   border-color:transparent ;
-
+}
+.nav-menu-button .p-menuitem-link{
+  background-color:transparent ;
+  border-color:transparent ;
+  padding: 5px;
 }
 .p-submenu-list{
   background-color:transparent ;
