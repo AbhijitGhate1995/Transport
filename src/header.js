@@ -8,7 +8,7 @@ import "./App.css";
 
 const HeaderData = () => {
   return (
-    <div className="w-full px-20 py-10 bg-[#091242] xl:flex flex-wrap items-center justify-center gap-28">
+    <div className="w-full px-20 py-10 bg-[#091242] xl:flex flex-wrap items-center justify-evenly  gap-28">
       <div className="flex items-center gap-2 md:mb-4 xl:mb-0 rubikFont">
         <div>
           <img src={TransitFlow} alt="transit" />

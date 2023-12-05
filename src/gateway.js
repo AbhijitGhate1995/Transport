@@ -66,7 +66,7 @@ const GateWayData = () => {
   return (
     <div className="gateway-bg pb-20">
       <div
-        className="xl:flex flex-wrap justify-evenly bg-[#09124240] krubFont"
+        className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont"
       >
         <div className="flex justify-end items-center">
           <Menubar
@@ -77,11 +77,11 @@ const GateWayData = () => {
             onClick={handleMenubarClick}
           />
         </div>
-        <div className="text-white gap-6 px-8 py-6 flex items-center justify-center nav-menu-button">
-          <div className="border-r-2 border-[#fff] pr-4">Home</div>
-          <div className="border-r-2 border-[#fff] pr-4">About</div>
-          <Menubar model={data} className="pages-bg pages-hover"/>
-          <div className="border-r-2 border-[#fff] pr-4 border-l-2 pl-4">Project</div>
+        <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
+          <div className="border-r-2 border-[#FFFFFF33] pr-4">Home</div>
+          <div className="border-r-2 border-[#FFFFFF33] pr-4">About</div>
+          <Menubar model={data} className=""/>
+          <div className="border-r-2 border-[#FFFFFF33] pr-4 border-l-2 pl-4">Project</div>
           <div>Contact</div>
         </div>
 
@@ -98,7 +98,7 @@ const GateWayData = () => {
         </div>
       </div>
       <div className="flex justify-start items-center cursor-pointer">
-        <div className="xl:ml-80 xl:mt-36 ml-40 mt-20">
+        <div className="xl:ml-64 xl:mt-36 ml-40 mt-20">
           <div className="grid text-[14px] xl:text-[0.729vw]">
             <div
               className="flex text-white rubikFont"
