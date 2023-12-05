@@ -334,40 +334,12 @@ const FooterData = () => {
                       <div className="text-[white] h-auto">
                         Subscribe to Tranport & Logistic WebFlow
                       </div>
+                      <div className="text-[#fff] grid"><span>Leverage agile frameworks to provide a robust</span>
+                      <span>synopsis for strategy collaborative thinking to</span>
+                      <span>further the overall value proposition.</span>
+</div>
             </TabPanel>
           </TabView>
-
-          {/* <div className="xl:flex flex-wrap items-center justify-center bg-[#091242] px-4 xl:mt-0 mt-2">
-            <div className="flex items-center gap-2 md:mb-4 xl:mb-0 rubikFont">
-              <div>
-                <img src={TransitFlow} alt="transit" />
-              </div>
-              <span className="text-[24px] font-semibold text-white">
-                TransitFlow
-              </span>
-            </div>
-          </div> */}
-          {/* <div className="xl:flex flex-wrap items-center justify-center pl-10 xl:px-20 py-4 bg-[#1F2A69] ">
-            <div className="flex items-center gap-2 md:mb-4 xl:mb-0 rubikFont">
-              <span className="text-[24px] font-semibold text-white">
-                Pages
-              </span>
-            </div>
-          </div>
-          <div className="xl:flex flex-wrap items-center justify-center  pl-10 xl:px-20 py-4 bg-[#1F2A69]">
-            <div className="flex items-center gap-2 md:mb-4 xl:mb-0 rubikFont">
-              <span className="text-[24px] font-semibold text-white">
-                Utility
-              </span>
-            </div>
-          </div>
-          <div className="xl:flex flex-wrap items-center justify-center  pl-10 xl:px-20 py-4 bg-[#1F2A69] ">
-            <div className="flex items-center gap-2 md:mb-4 xl:mb-0">
-              <span className="text-[24px] font-semibold text-white">
-                Subscribe
-              </span>
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="w-full bg-[#091242] px-48 py-4 xl:flex flex-wrap justify-between items-center border-t-2 border-[#fff]">
