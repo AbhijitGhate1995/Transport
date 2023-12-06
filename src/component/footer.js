@@ -152,7 +152,9 @@ const FooterData = () => {
                       <span>Style Guide</span>
                       <span>Changelog</span>
                       <span>Licenses</span>
-                      <span>Protected</span>
+                      <Link to="/protection">
+                        <span>Protected</span>
+                      </Link>
                       <span>Not Found</span>
                     </div>
                   </div>

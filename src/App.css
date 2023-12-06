@@ -368,3 +368,10 @@ background-color: #091242;
 .newRomanFont{
   font-family: 'Times New Roman', serif;
 }
+.protection-bg{
+  background-image: url(/src/images/protectionpage/plane.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 70vh;
+  width: 100%;
+}
