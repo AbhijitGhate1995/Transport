@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import containerStorage from "../images/footer/containerStorage.png";
 import TransitFlow from "../images/header/TransitFlow.png";
 import call from "../images/header/call.png";
 import email from "../images/header/email.png";
@@ -75,11 +74,7 @@ const FooterData = () => {
     );
   };
   return (
-    <div className="grid mt-24">
-      <div>
-        <img src={containerStorage} alt="container" />
-      </div>
-
+    <div className="grid">
       <div className="w-full bg-[#091242] px-48 xl:flex flex-wrap pb-8">
         <div className="w-full grid grid-cols-1 items-center justify-start mb-8 Footer-Tab py-4">
           <TabView
@@ -142,9 +137,11 @@ const FooterData = () => {
                       </Link>
                       <span>Our Team</span>
                       <span>Our Project</span>
-                      <span>Pricing</span>
+                      <Link to="/pricing">
+                        <span>Pricing</span>
+                      </Link>
                       <Link to="/contact">
-                      <span>Contact</span>
+                        <span>Contact</span>
                       </Link>
                     </div>
                     <Outlet />

@@ -1,76 +1,67 @@
 import React, { useState } from "react";
+import Logistic from "../images/gateway/Logistic.png";
+import { Menubar } from "primereact/menubar";
+import { Link, Outlet } from "react-router-dom";
 import Instagram from "../images/gateway/Instagram.png";
 import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
-import Logistic from "../images/gateway/Logistic.png";
-import { Menubar } from "primereact/menubar";
-import "../App.css";
-import "primereact/resources/themes/lara-light-indigo/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import { Outlet, Link } from "react-router-dom";
 
-const AboutPlane = () => {
-  const items = [
-    {
-      label: "Home",
-      icon: "",
-      url:"/"
-    },
-    {
-      label: "About",
-      icon: "",
-      url:"/aboutus",
-    },
-    {
-      label: "Project",
-      icon: "",
-    },
-    {
-      label: "Pages",
-      icon: "",
-    },
-    {
-      label: "Contact",
-      icon: "",
-      url:"/contact",
-    },
-  ];
-  const data = [
-    {
-      label: "Pages",
-      items: [
+const PricingHeader = () => {
+    const items = [
         {
-          label: "Services",
+          label: "Home",
           icon: "",
         },
         {
-          label: "Team",
+          label: "About",
           icon: "",
         },
         {
-          label: "Pricing",
+          label: "Project",
           icon: "",
-          url:"/pricing",
         },
         {
-          label: "Blog",
+          label: "Pages",
           icon: "",
         },
-      ],
-    },
-  ];
-  const [expanded, setExpanded] = useState(false);
-
-  const handleMenubarClick = () => {
-    setExpanded(!expanded);
-  };
-
+        {
+          label: "Contact",
+          icon: "",
+        },
+      ];
+      const data = [
+        {
+          label: "Pages",
+          items: [
+            {
+              label: "Services",
+              icon: "",
+            },
+            {
+              label: "Team",
+              icon: "",
+            },
+            {
+              label: "Pricing",
+              icon: "",
+            },
+            {
+              label: "Blog",
+              icon: "",
+            },
+          ],
+        },
+      ];
+      const [expanded, setExpanded] = useState(false);
+    
+      const handleMenubarClick = () => {
+        setExpanded(!expanded);
+      };
   return (
-    <div className="">
-      <div className="aboutplane-bg pb-20">
-        <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont z-10">
+    <div>
+      <div className="pricing-bg pb-20">
+        <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
           <div className="lg:hidden flex justify-end items-center">
             <Menubar
               model={items}
@@ -80,7 +71,7 @@ const AboutPlane = () => {
               onClick={handleMenubarClick}
             />
           </div>
-          <div className="hidden lg:flex justify-center items-center z-10">
+          <div className="hidden lg:flex justify-center items-center">
             <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
               <div className="flex-1">
                 <Link to="/">
@@ -94,8 +85,8 @@ const AboutPlane = () => {
                   </div>
                 </Link>
               </div>
-
-              <Menubar model={data} className="pages-icon flex-1" />
+              <Outlet />
+              <Menubar model={data} className="pages-icon flex-1 " />
               <div className="flex-1">
                 <div className="border-r-2 border-[#FFFFFF33] pr-6 border-l-2 pl-6">
                   Project
@@ -106,7 +97,7 @@ const AboutPlane = () => {
               </Link>
             </div>
           </div>
-          <Outlet />
+
           <div className="flex justify-center items-center gap-6">
             <div className="px-24 py-6 flex justify-start items-center gap-6 ">
               <img src={Instagram} alt="instagram" />
@@ -119,18 +110,18 @@ const AboutPlane = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-start items-center cursor-pointer">
-          <div className="xl:ml-64 xl:mt-44 ml-40 mt-20 z-10">
+        <div className="flex justify-start items-center cursor-pointer pricing-grad">
+          <div className="xl:ml-64 xl:mt-20 ml-40 mt-20">
             <div className="grid text-[14px] xl:text-[0.729vw]">
               <div className="flex text-white rubikFont">
                 <img src={Logistic} alt="Logistic" />
-                <span className="bg-[#041C3780] px-2 py-1">About Us</span>
+                <span className="bg-[#041C3780] px-2 py-1">Pricing</span>
               </div>
               <div
-                className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"
+                className="grid text-[#fff] text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"
                 style={{ lineHeight: "normal" }}
               >
-                About Our Logistics
+                Our Best Price
               </div>
             </div>
           </div>
@@ -140,4 +131,4 @@ const AboutPlane = () => {
   );
 };
 
-export default AboutPlane;
+export default PricingHeader;

@@ -6,20 +6,21 @@ import HomePage from "./homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from "./aboutUs";
 import ConatctPage from "./contact";
+import PricingPage from "./pricing";
+import ProtectionPage from "./protection";
 
 function App() {
   return (
     <div>
- <BrowserRouter>
- <Routes>
- <Route path="/" element={<HomePage/>}></Route>
- <Route path="/aboutus" element={<AboutUs/>}></Route>
- <Route path="/contact" element={<ConatctPage/>}></Route>
- 
- </Routes>
-
- </BrowserRouter>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/aboutus" element={<AboutUs />}></Route>
+          <Route path="/contact" element={<ConatctPage />}></Route>
+          <Route path="/pricing" element={<PricingPage />}></Route>
+          <Route path="/protection" element={<ProtectionPage />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -20,6 +20,7 @@ const GateWayData = () => {
     {
       label: "About",
       icon: "",
+      url:"/aboutus"
     },
     {
       label: "Project",
@@ -32,6 +33,7 @@ const GateWayData = () => {
     {
       label: "Contact",
       icon: "",
+      url:"/contact",
     },
   ];
   const data = [
@@ -49,6 +51,7 @@ const GateWayData = () => {
         {
           label: "Pricing",
           icon: "",
+          url:"/pricing",
         },
         {
           label: "Blog",

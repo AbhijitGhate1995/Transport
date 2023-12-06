@@ -36,7 +36,7 @@ const CompanyOverview = () => {
               proposition.
             </span>
           </div>
-          <div className="grid grid-cols-3 gap-2 krubFont">
+          <div className="grid grid-cols-3 gap-2 krubFont text-[19px] xl:text-[0.990vw]">
             <div className="px-4 py-2 flex justify-center bg-[#FFB82B] text-white">
               Our Approach
             </div>
@@ -44,7 +44,7 @@ const CompanyOverview = () => {
             <div className="px-4 py-2 flex justify-center bg-[#F4F4F4]">Our Approach</div>
           </div>
           <div
-            className="krubFont text-[16px] font-medium grid"
+            className="krubFont text-[16px] xl:text-[0.833vw] font-medium grid"
             style={{ lineHeight: "24.244px" }}
           >
             <span>

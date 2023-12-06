@@ -12,10 +12,12 @@ const ContactTruck = () => {
     {
       label: "Home",
       icon: "",
+      url:"/"
     },
     {
       label: "About",
       icon: "",
+      url:"/aboutus",
     },
     {
       label: "Project",
@@ -28,6 +30,7 @@ const ContactTruck = () => {
     {
       label: "Contact",
       icon: "",
+      url:"/contact",
     },
   ];
   const data = [
@@ -45,6 +48,7 @@ const ContactTruck = () => {
         {
           label: "Pricing",
           icon: "",
+          url:"/pricing",
         },
         {
           label: "Blog",

@@ -11,6 +11,7 @@ import ContactData from "./contact";
 import FooterData from "../component/footer"
 import GateWayData from './gateway';
 import HeaderData from "../component/header"
+import FooterImg from './footerimg';
 
 
 const HomePage = () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
       <TransporterData/>
       <ContactData/>
       <BlogData/>
+      <FooterImg/>
       <FooterData/>
     </div>
   )
