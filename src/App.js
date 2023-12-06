@@ -8,6 +8,7 @@ import AboutUs from "./aboutUs";
 import ConatctPage from "./contact";
 import PricingPage from "./pricing";
 import ProtectionPage from "./protection";
+import ChangeLog from "./changelog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<ConatctPage />}></Route>
           <Route path="/pricing" element={<PricingPage />}></Route>
           <Route path="/protection" element={<ProtectionPage />}></Route>
+          <Route path="/changelog" element={<ChangeLog/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

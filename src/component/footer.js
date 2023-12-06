@@ -150,7 +150,9 @@ const FooterData = () => {
                       style={{ lineHeight: "40px" }}
                     >
                       <span>Style Guide</span>
-                      <span>Changelog</span>
+                      <Link to="/changelog">
+                        <span>Changelog</span>
+                      </Link>
                       <span>Licenses</span>
                       <Link to="/protection">
                         <span>Protected</span>
