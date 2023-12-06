@@ -1,11 +1,11 @@
 import React from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import Container from "./images/blog/container.png";
-import Calender from "./images/blog/calender.png";
+import Logistic from "../images/gateway/Logistic.png";
+import Container from "../images/blog/container.png";
+import Calender from "../images/blog/calender.png";
 import "primeicons/primeicons.css";
-import Boat from "./images/blog/boat.png";
-import Supply from "./images/blog/supply.png";
-import "./App.css";
+import Boat from "../images/blog/boat.png";
+import Supply from "../images/blog/supply.png";
+import "../App.css";
 
 // import ReadMore from "./images/blog/readmore.png";
 

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import time from "./images/header/time.png";
-import call from "./images/header/call.png";
-import email from "./images/header/email.png";
+import Logistic from "../images/gateway/Logistic.png";
+import time from "../images/header/time.png";
+import call from "../images/header/call.png";
+import email from "../images/header/email.png";
 import { InputText } from "primereact/inputtext";
 import { InputTextarea } from "primereact/inputtextarea";
-import Container from "./images/contact/container.jpg";
-import Mountain from "./images/contact/mountain.jpg";
-import Plane from "./images/contact/plain.jpg";
-import Snow from "./images/contact/snowmountain.jpg";
-import "./App.css";
+import Container from "../images/contact/container.jpg";
+import Mountain from "../images/contact/mountain.jpg";
+import Plane from "../images/contact/plain.jpg";
+import Snow from "../images/contact/snowmountain.jpg";
+import "../App.css";
 
 const ContactData = () => {
   const [value, setValue] = useState("");

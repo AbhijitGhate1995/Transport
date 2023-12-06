@@ -1,9 +1,9 @@
 import React from "react";
-import TransitFlow from "./images/header/TransitFlow.png";
-import time from "./images/header/time.png";
-import call from "./images/header/call.png";
-import email from "./images/header/email.png";
-import "./App.css";
+import TransitFlow from "../images/header/TransitFlow.png";
+import time from "../images/header/time.png";
+import call from "../images/header/call.png";
+import email from "../images/header/email.png";
+import "../App.css";
 
 
 const HeaderData = () => {
@@ -18,7 +18,7 @@ const HeaderData = () => {
         </span>
       </div>
       <div className="grid grid-cols-3 gap-5 krubFont">
-        <div className="flex items-center  gap-2">
+        <div className="flex items-center gap-2">
           <div>
             <img src={time} alt="Time" />
           </div>

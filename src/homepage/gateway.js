@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-import Instagram from "./images/gateway/Instagram.png";
-import Facebook from "./images/gateway/Facebook.png";
-import Twitter from "./images/gateway/Twitter.png";
-import Linkdin from "./images/gateway/Linkdin.png";
-import Logistic from "./images/gateway/Logistic.png";
+import Instagram from "../images/gateway/Instagram.png";
+import Facebook from "../images/gateway/Facebook.png";
+import Twitter from "../images/gateway/Twitter.png";
+import Linkdin from "../images/gateway/Linkdin.png";
+import Logistic from "../images/gateway/Logistic.png";
 import { Menubar } from "primereact/menubar";
-import "./App.css";
+import "../App.css";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import { Outlet, Link } from "react-router-dom";
 
 const GateWayData = () => {
   const items = [
@@ -80,17 +81,20 @@ const GateWayData = () => {
               <div className="border-r-2 border-[#FFFFFF33] pr-6">Home</div>
             </div>
             <div className="flex-1">
-              <div className="border-r-2 border-[#FFFFFF33] pr-6">About</div>
+              <Link to="/aboutus">
+                <div className="border-r-2 border-[#FFFFFF33] pr-6">About</div>
+              </Link>
             </div>
-
-            <Menubar model={data} className="pages-icon flex-1" />
+            <Outlet />
+            <Menubar model={data} className="pages-icon flex-1 " />
             <div className="flex-1">
               <div className="border-r-2 border-[#FFFFFF33] pr-6 border-l-2 pl-6">
                 Project
               </div>
             </div>
-
-            <div className="flex-1">Contact</div>
+            <Link to="/contact">
+              <div className="flex-1">Contact</div>
+            </Link>
           </div>
         </div>
 

@@ -1,10 +1,10 @@
 import React from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import sea from "./images/safecargo/sea.png";
-import local from "./images/safecargo/local.png";
-import air from "./images/safecargo/air.png";
-import warehouse from "./images/safecargo/warehouse.png";
-import "./App.css";
+import Logistic from "../images/gateway/Logistic.png";
+import sea from "../images/safecargo/sea.png";
+import local from "../images/safecargo/local.png";
+import air from "../images/safecargo/air.png";
+import warehouse from "../images/safecargo/warehouse.png";
+import "../App.css";
 
 const SafeCargoData = () => {
   return (

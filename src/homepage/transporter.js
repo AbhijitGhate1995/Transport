@@ -1,13 +1,13 @@
 import React from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import Jessca from "./images/transporter/jessca.png";
-import Twitter from "./images/transporter/twitter.png";
-import Facebook from "./images/transporter/facebook.png";
-import Instagram from "./images/transporter/instagram.png";
-import Linkedin from "./images/transporter/linkedin.png";
-import Kathleen from "./images/transporter/kathleen.png";
-import Rebecca from "./images/transporter/rebecca.png";
-import "./App.css";
+import Logistic from "../images/gateway/Logistic.png";
+import Jessca from "../images/transporter/jessca.png";
+import Twitter from "../images/transporter/twitter.png";
+import Facebook from "../images/transporter/facebook.png";
+import Instagram from "../images/transporter/instagram.png";
+import Linkedin from "../images/transporter/linkedin.png";
+import Kathleen from "../images/transporter/kathleen.png";
+import Rebecca from "../images/transporter/rebecca.png";
+import "../App.css";
 
 
 const TransporterData = () => {

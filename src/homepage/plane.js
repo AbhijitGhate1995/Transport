@@ -1,13 +1,13 @@
 import React from "react";
-import plane from "./images/plane/plane.png";
-import Logistic from "./images/gateway/Logistic.png";
-import Package from "./images/plane/package.png";
-import Ship from "./images/plane/ship.png";
-import Global from "./images/plane/global.png";
-import TechSupport from "./images/plane/techsupport.png";
-import Time from "./images/plane/time.png";
-import Price from "./images/plane/price.png";
-import "./App.css";
+import plane from "../images/plane/plane.png";
+import Logistic from "../images/gateway/Logistic.png";
+import Package from "../images/plane/package.png";
+import Ship from "../images/plane/ship.png";
+import Global from "../images/plane/global.png";
+import TechSupport from "../images/plane/techsupport.png";
+import Time from "../images/plane/time.png";
+import Price from "../images/plane/price.png";
+import "../App.css";
 
 
 const PlaneData = () => {

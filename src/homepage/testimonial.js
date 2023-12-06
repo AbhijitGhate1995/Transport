@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import Arrow from "./images/testimonial/Arrow.png";
-import comma from "./images/testimonial/comma.png";
-import star from "./images/testimonial/Star.png";
-import "./App.css";
-import { ProductService } from "./service/productservice";
+import Logistic from "../images/gateway/Logistic.png";
+import Arrow from "../images/testimonial/Arrow.png";
+import comma from "../images/testimonial/comma.png";
+import star from "../images/testimonial/Star.png";
+import "../App.css";
+import { ProductService } from "../service/productservice";
 import { Carousel } from "primereact/carousel";
 
 const TestimonialData = () => {
@@ -94,7 +94,7 @@ const TestimonialData = () => {
   };
 
   return (
-    <div className="mx-40 mb-20">
+    <div className="mx-40 mb-20 mt-8">
       <div className="w-full flex justify-center items-center">
         <div className="grid w-full">
           <div className="flex justify-start items-center w-full rubikFont">

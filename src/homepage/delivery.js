@@ -1,6 +1,6 @@
 import React from "react";
-import delivery from "./images/delivery/delivered.png";
-import "./App.css";
+import delivery from "../images/delivery/delivered.png";
+import "../App.css";
 
 
 const DeliveryData = () => {

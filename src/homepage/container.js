@@ -1,8 +1,8 @@
 import React from "react";
-import Logistic from "./images/gateway/Logistic.png";
-import delivery from "./images/container/delivery.png";
-import travelcost from "./images/container/travelcost.png";
-import "./App.css";
+import Logistic from "../images/gateway/Logistic.png";
+import delivery from "../images/container/delivery.png";
+import travelcost from "../images/container/travelcost.png";
+import "../App.css";
 
 
 const ContainerData = () => {
