@@ -8,7 +8,7 @@ import Supply from "../images/blog/supply.png";
 import LogisticImg from "../images/blogpage/logistic.png";
 import TruckImg from "../images/blogpage/truck.png";
 import "../App.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const OurBlog = () => {
   return (
@@ -395,6 +395,7 @@ const OurBlog = () => {
             </div>
           </div>
         </div>
+        <Outlet />
       </div>
     </div>
   );

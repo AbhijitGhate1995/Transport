@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import { Link } from "react-router-dom";
 
 const TransportingData = () => {
   return (
@@ -22,7 +22,7 @@ const TransportingData = () => {
             <span className="text-[20px] xl:text-[1.042vw] text-white ml-6 rubikFont">
               Liquid Transportation
             </span>
-            <span className="text-[16px] xl:text-[0.833vw] text-[#FFB629] ml-6 mb-2 krubFont" >
+            <span className="text-[16px] xl:text-[0.833vw] text-[#FFB629] ml-6 mb-2 krubFont">
               Premium Tankers
             </span>
           </div>
@@ -39,7 +39,7 @@ const TransportingData = () => {
               Liquid Transportation
             </span>
             <span className="text-[16px] xl:text-[0.833vw] text-[#FFB629] ml-6 mb-2 krubFont">
-              Premium Tankers 
+              Premium Tankers
             </span>
           </div>
           <div className="boat-bg flex flex-col justify-end">
@@ -53,11 +53,13 @@ const TransportingData = () => {
         </div>
       </div>
       <div className="w-full transporting-grad flex justify-center items-center top-[-100px] cursor-pointer">
-        <div className="morework-grad morework-hover flex items-center justify-center">
-          <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont">
-            More Work
-          </span>
-        </div>
+        <Link to="/ourproject">
+          <div className="morework-grad morework-hover flex items-center justify-center">
+            <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont">
+              More Work
+            </span>
+          </div>
+        </Link>
       </div>
     </div>
   );

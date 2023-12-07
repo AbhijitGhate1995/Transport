@@ -13,6 +13,8 @@ import LicensesPage from "./licenses";
 import OurTeamPage from "./ourteampage";
 import BlogPage from "./blogpage";
 import BlogNews from "./blognews";
+import TransportingProject from "./transportingproject";
+import ProjectAirCargo from "./projectaircargo";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/ourteam" element={<OurTeamPage/>}></Route>
           <Route path="/blog" element={<BlogPage/>}></Route>
           <Route path="/blog/blognews" element={<BlogNews/>}></Route>
+          <Route path="/ourproject" element={<TransportingProject/>}></Route>
+          <Route path="/ourproject/aircargo" element={<ProjectAirCargo/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

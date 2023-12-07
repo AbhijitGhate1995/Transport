@@ -20,7 +20,7 @@ const GateWayData = () => {
     {
       label: "About",
       icon: "",
-      url:"/aboutus"
+      url: "/aboutus",
     },
     {
       label: "Project",
@@ -33,7 +33,7 @@ const GateWayData = () => {
     {
       label: "Contact",
       icon: "",
-      url:"/contact",
+      url: "/contact",
     },
   ];
   const data = [
@@ -51,12 +51,12 @@ const GateWayData = () => {
         {
           label: "Pricing",
           icon: "",
-          url:"/pricing",
+          url: "/pricing",
         },
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },
@@ -146,9 +146,11 @@ const GateWayData = () => {
               <span>diam interdum nulla, sed laoreet risus lectus.</span>
             </div>
             <div className="explore-grad explore-hover mt-6 krubFont cursor-pointer">
-              <span className="text-[16px] xl:text-[0.833vw] flex ml-12 mt-4 font-medium">
-                Explore More
-              </span>
+              <Link to="/aboutus">
+                <span className="text-[16px] xl:text-[0.833vw] flex ml-12 mt-4 font-medium">
+                  Explore More
+                </span>
+              </Link>
             </div>
           </div>
         </div>

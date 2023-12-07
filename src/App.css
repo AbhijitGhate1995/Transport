@@ -313,7 +313,8 @@
 background-color: #091242;
 }
 .aboutplane-bg{
-  background-image: url(/src/images/aboutus/plane.png);
+  background-image:linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+   url(/src/images/aboutus/plane.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
@@ -349,14 +350,16 @@ background-color: #091242;
   background-image: linear-gradient(to top, #091242, #091242);
 }
 .contact-bg{
-  background-image: url(/src/images/contactpage/contacttruck.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/contactpage/contacttruck.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
   width: 100%;
 }
 .pricing-bg{
-  background-image: url(/src/images/pricingpage/pricingboat.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/pricingpage/pricingboat.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
@@ -369,7 +372,8 @@ background-color: #091242;
   font-family: 'Times New Roman', serif;
 }
 .protection-bg{
-  background-image: url(/src/images/protectionpage/plane.png);
+  background-image:linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+   url(/src/images/protectionpage/plane.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
@@ -377,28 +381,48 @@ background-color: #091242;
   /* background-image: linear-gradient(to bottom right, #032D5F , #fff); */
 }
 .changelog-bg{
-  background-image: url(/src/images/changelogpage/changelog.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/changelogpage/changelog.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
   width: 100%;
 }
 .licenses-bg{
-  background-image: url(/src/images/licensespage/license.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/licensespage/license.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
   width: 100%;
 }
 .ourteam-bg{
-  background-image: url(/src/images/ourteam/teamheader.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/ourteam/teamheader.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
   width: 100%;
 }
 .blog-bg{
-  background-image: url(/src/images/blogpage/containerblog.png);
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/blogpage/containerblog.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 70vh;
+  width: 100%;
+}
+.ourproject-bg{
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/ourproject/ourprojectheader.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 70vh;
+  width: 100%;
+}
+.aircargo-bg{
+  background-image: linear-gradient(91deg, #032D5F 21.69%, rgba(9, 18, 66, 0.30) 51.58%),
+  url(/src/images/projectaircargo/headerimg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 70vh;
