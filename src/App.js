@@ -9,6 +9,7 @@ import ConatctPage from "./contact";
 import PricingPage from "./pricing";
 import ProtectionPage from "./protection";
 import ChangeLog from "./changelog";
+import LicensesPage from "./licenses";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/pricing" element={<PricingPage />}></Route>
           <Route path="/protection" element={<ProtectionPage />}></Route>
           <Route path="/changelog" element={<ChangeLog/>}></Route>
+          <Route path="/licenses" element={<LicensesPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

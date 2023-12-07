@@ -153,7 +153,9 @@ const FooterData = () => {
                       <Link to="/changelog">
                         <span>Changelog</span>
                       </Link>
-                      <span>Licenses</span>
+                      <Link to="/licenses">
+                        <span>Licenses</span>
+                      </Link>
                       <Link to="/protection">
                         <span>Protected</span>
                       </Link>
@@ -233,20 +235,32 @@ const FooterData = () => {
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}
                     >
-                      <span>About Us</span>
+                      <Link to="/aboutus">
+                        <span>About Us</span>
+                      </Link>
                       <span>Our Team</span>
                       <span>Our Project</span>
-                      <span>Pricing</span>
-                      <span>Contact</span>
+                      <Link to="/pricing">
+                        <span>Pricing</span>
+                      </Link>
+                      <Link to="/contact">
+                        <span>Contact</span>
+                      </Link>
                     </div>
                     <div
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}
                     >
                       <span>Style Guide</span>
-                      <span>Changelog</span>
-                      <span>Licenses</span>
-                      <span>Protected</span>
+                      <Link to="/changelog">
+                        <span>Changelog</span>
+                      </Link>
+                      <Link to="/licenses">
+                        <span>Licenses</span>
+                      </Link>
+                      <Link to="/protection">
+                        <span>Protected</span>
+                      </Link>
                       <span>Not Found</span>
                     </div>
                   </div>
@@ -323,20 +337,32 @@ const FooterData = () => {
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}
                     >
-                      <span>About Us</span>
+                      <Link to="/aboutus">
+                        <span>About Us</span>
+                      </Link>
                       <span>Our Team</span>
                       <span>Our Project</span>
-                      <span>Pricing</span>
-                      <span>Contact</span>
+                      <Link to="/pricing">
+                        <span>Pricing</span>
+                      </Link>
+                      <Link to="/contact">
+                        <span>Contact</span>
+                      </Link>
                     </div>
                     <div
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}
                     >
                       <span>Style Guide</span>
-                      <span>Changelog</span>
-                      <span>Licenses</span>
-                      <span>Protected</span>
+                      <Link to="/changelog">
+                        <span>Changelog</span>
+                      </Link>
+                      <Link to="/licenses">
+                        <span>Licenses</span>
+                      </Link>
+                      <Link to="/protection">
+                        <span>Protected</span>
+                      </Link>
                       <span>Not Found</span>
                     </div>
                   </div>
@@ -386,7 +412,9 @@ const FooterData = () => {
         </div>
         <div className="text-[#8388A7] font-normal text-[16px] xl:text-[0.833vw] flex gap-4 krubFont">
           <span>Style Guide</span>
-          <span>Licenses</span>
+          <Link to="/licenses">
+            <span>Licenses</span>
+          </Link>
           <span>Changelog</span>
           <span>Password</span>
         </div>
