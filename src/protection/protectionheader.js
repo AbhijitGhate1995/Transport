@@ -42,6 +42,11 @@ const ProtectionHeader = () => {
           icon: "",
         },
         {
+          label: "Service Single",
+          icon:"",
+          url:"/servicesingle"
+      },
+        {
           label: "Team",
           icon: "",
         },

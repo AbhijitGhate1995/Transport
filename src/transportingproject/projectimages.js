@@ -7,7 +7,7 @@ import Highway from "../images/ourproject/highway.png";
 import Transport from "../images/ourproject/transport.png";
 import { Link, Outlet } from "react-router-dom";
 
-const ProjectImages = () => {
+const   ProjectImages = () => {
   return (
     <div className="mt-12">
       <div className="bg-white mx-40 xl:my-0 md:my-20 my-[500px]">

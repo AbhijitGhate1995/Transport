@@ -7,7 +7,7 @@ import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
 
-const ProjectHeader = () => {
+const ServiceSingleHeader = () => {
   const items = [
     {
       label: "Home",
@@ -40,6 +40,7 @@ const ProjectHeader = () => {
         {
           label: "Services",
           icon: "",
+          url: "/service",
         },
         {
             label: "Service Single",
@@ -71,7 +72,7 @@ const ProjectHeader = () => {
 
   return (
     <div>
-      <div className="ourproject-bg pb-20">
+      <div className="servicesingle-bg pb-20 mb-20">
         <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
           <div className="lg:hidden flex justify-end items-center">
             <Menubar
@@ -126,13 +127,15 @@ const ProjectHeader = () => {
             <div className="grid text-[14px] xl:text-[0.729vw]">
               <div className="flex text-white rubikFont">
                 <img src={Logistic} alt="Logistic" />
-                <span className="bg-[#041C3780] px-2 py-1">Gallery</span>
+                <span className="bg-[#041C3780] px-2 py-1">
+                Service Single
+                </span>
               </div>
               <div
                 className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"
                 style={{ lineHeight: "normal" }}
               >
-                Our Project
+                Service Details
               </div>
             </div>
           </div>
@@ -142,4 +145,4 @@ const ProjectHeader = () => {
   );
 };
 
-export default ProjectHeader;
+export default ServiceSingleHeader;

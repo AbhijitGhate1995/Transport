@@ -16,6 +16,7 @@ import BlogNews from "./blognews";
 import TransportingProject from "./transportingproject";
 import ProjectAirCargo from "./projectaircargo";
 import ServicesPage from "./servicespage";
+import ServiceSingle from "./servicesingle";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/ourproject" element={<TransportingProject/>}></Route>
           <Route path="/ourproject/aircargo" element={<ProjectAirCargo/>}></Route>
           <Route path="/service" element={<ServicesPage/>}></Route>
+          <Route path="/servicesingle" element={<ServiceSingle/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
