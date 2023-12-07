@@ -17,6 +17,7 @@ import TransportingProject from "./transportingproject";
 import ProjectAirCargo from "./projectaircargo";
 import ServicesPage from "./servicespage";
 import ServiceSingle from "./servicesingle";
+import PageNotFound from "./pagenotfound";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/ourproject/aircargo" element={<ProjectAirCargo/>}></Route>
           <Route path="/service" element={<ServicesPage/>}></Route>
           <Route path="/servicesingle" element={<ServiceSingle/>}></Route>
+          <Route path="/pagenotfound" element={<PageNotFound/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

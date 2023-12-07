@@ -161,7 +161,9 @@ const FooterData = () => {
                       <Link to="/protection">
                         <span>Protected</span>
                       </Link>
-                      <span>Not Found</span>
+                      <Link to="/pagenotfound">
+                        <span>Not Found</span>
+                      </Link>
                     </div>
                   </div>
                   <div className="flex flex-col text-16px xl:text-[0.833vw] inputclass krubFont">
@@ -265,7 +267,9 @@ const FooterData = () => {
                       <Link to="/protection">
                         <span>Protected</span>
                       </Link>
-                      <span>Not Found</span>
+                      <Link to="/pagenotfound">
+                        <span>Not Found</span>
+                      </Link>
                     </div>
                   </div>
                   <div className="flex flex-col text-16px xl:text-[0.833vw] inputclass krubFont">
@@ -369,7 +373,9 @@ const FooterData = () => {
                       <Link to="/protection">
                         <span>Protected</span>
                       </Link>
-                      <span>Not Found</span>
+                      <Link to="/pagenotfound">
+                        <span>Not Found</span>
+                      </Link>
                     </div>
                   </div>
                   <div className="flex flex-col text-16px xl:text-[0.833vw] inputclass krubFont">
