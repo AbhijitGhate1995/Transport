@@ -2,6 +2,7 @@ import React from "react";
 import Logistic from "../images/gateway/Logistic.png";
 import delivery from "../images/container/delivery.png";
 import travelcost from "../images/container/travelcost.png";
+import deliverytime from "../images/container/deliverytime.png"
 import "../App.css";
 
 
@@ -55,7 +56,10 @@ const ContainerData = () => {
                   </div>
                 </div>
                 <div className="wrapper xl:ml-20 mt-4 flex justify-center items-start">
-                  <div className="plane-img"></div>
+                  <div className="plane-img relative">
+                    <img src={deliverytime} alt="deliverytime" className="absolute xl:top-[200px] xl:right-[80px] 2xl:top-[250px] 2xl:right-[160px] lg:top-[120px] lg:right-[300px] md:top-[120px] md:right-[300px]"/>
+
+                  </div>
                 </div>
               </div>
             </div>

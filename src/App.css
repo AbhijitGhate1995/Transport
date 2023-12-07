@@ -44,6 +44,12 @@
   background-color: #ffb629; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #ffb629, #ffd7a6);
 }
+.icon-grad {
+  height: 70px;
+  width: 300px;
+  background-color: #ffb629; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #ffb629, #ffd7a6);
+}
 .rubikFont {
   font-family: "Rubik", sans-serif;
 }
@@ -71,8 +77,8 @@
   z-index: 2;
 }
 .plane-img {
-  background-image: url(/src/images/container/plane.png);
-  position: absolute;
+  background-image: url(/src/images/container/plane.png) , url(/src/images/container/deliverytime.png);
+  background-position: center center, left bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;

@@ -7,8 +7,8 @@ import Global from "../images/plane/global.png";
 import TechSupport from "../images/plane/techsupport.png";
 import Time from "../images/plane/time.png";
 import Price from "../images/plane/price.png";
+import planeicon from "../images/plane/planeIcon.png";
 import "../App.css";
-
 
 const PlaneData = () => {
   return (
@@ -17,7 +17,14 @@ const PlaneData = () => {
         <div className="w-full bg-[#091242] relative">
           <div className="mt-24 xl:ml-20">
             <div className="">
-            <img src={plane} alt="plane" className="absolute z-[2]"/>
+              <img src={plane} alt="plane" className="relative" />
+              <div className="absolute xl:top-[390px] xl:left-[250px] 2xl:top-[600px] 2xl:left-[350px] lg:top-[360px] lg:left-[80px] md:top-[280px] md:left-[20px] flex icon-grad justify-center items-center gap-4 py-4">
+                <img src={planeicon} alt="planeicon" className="" />
+                <div className="grid">
+                  <span>Moving your products</span>
+                  <span>across borders</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -29,11 +36,17 @@ const PlaneData = () => {
                 Why Choose
               </span>
             </div>
-            <div className="grid text-[35px] font-bold xl:text-[1.823vw] rubikFont" style={{lineHeight: "normal" }}>
+            <div
+              className="grid text-[35px] font-bold xl:text-[1.823vw] rubikFont"
+              style={{ lineHeight: "normal" }}
+            >
               <span>We create opportunity to</span>
               <span>reach potential</span>
             </div>
-            <div className="grid text-[16px] xl:text-[0.833vw] font-normal krubFont" style={{lineHeight: "24.244px" }}>
+            <div
+              className="grid text-[16px] xl:text-[0.833vw] font-normal krubFont"
+              style={{ lineHeight: "24.244px" }}
+            >
               <span>
                 Leverage agile frameworks to provide a robust synopsis for
               </span>

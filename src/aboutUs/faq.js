@@ -1,6 +1,7 @@
 import React from "react";
 import person from "../images/aboutus/person.png";
 import Logistic from "../images/gateway/Logistic.png";
+import call from "../images/header/call.png";
 import "../App.css";
 
 const AboutFaq = () => {
@@ -57,20 +58,39 @@ const AboutFaq = () => {
           </div>
         </div>
         <div className="mt-16">
-          {/* <div className="bg-[#1C1F35] relative">
-            <div className="flex justify-end items-center top-[-100px]">
-              <div className="faq-grad gap-4 flex justify-center items-center"></div>
+          <div className="absolute bg-[#111C55] px-8 py-6 grid 2xl:top-[4500px] 2xl:left-[900px] gap-4 z-10 xl:top-[4150px] xl:left-[550px] lg:top-[6400px] md:top-[]">
+            <div className="flex text-white rubikFont text-[14px] xl:text-[0.729vw]">
+              <img src={Logistic} alt="Logistic" />
+              <span className="bg-[#041C3780] px-2 py-1">Pricing</span>
             </div>
-            <div className="flex flex-col justify-start items-start px-6 py-6 text-white top-[200px]">
-                      <span className="text-[20px] xl:text-[1.042vw] rubikFont" style={{lineHeight: "normal" }}>
-                        Jessca Arow
-                      </span>
-                      <span className="text-[16px] xl:text-[0.833vw] krubFont" style={{lineHeight:"24.244px" }}>
-                        Designer
-                      </span>
-                    </div>
-          </div> */}
-          <img src={person} alt="person" style={{ width: "500px" }} />
+            <div className="text-[20px] xl:text-[1.042vw] grid rubikFont font-medium text-white">
+              <span>You need any help? get free</span>
+              <span>consultation</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div>
+                <img src={call} alt="Time" />
+              </div>
+              <div
+                className="text-[14px] xl:text-[0.729vw] font-semibold text-white grid"
+                style={{ lineHeight: "18.903px" }}
+              >
+                <span>Call Us</span>
+                <span>(00) 112 365 489</span>
+              </div>
+            </div>
+            <div className="explore-grad choose-hover krubFont flex items-center justify-center">
+              <span className="text-[16px] xl:text-[0.833vw] flex font-semibold cursor-pointer">
+                Contact Us
+              </span>
+            </div>
+          </div>
+          <img
+            src={person}
+            alt="person"
+            style={{ width: "500px" }}
+            className="relative"
+          />
         </div>
       </div>
     </div>

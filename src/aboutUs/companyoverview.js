@@ -1,14 +1,16 @@
 import React from "react";
 import truck from "../images/aboutus/truck.png";
 import Logistic from "../images/gateway/Logistic.png";
+import DeliveryBoy from "../images/aboutus/deliveryboy.png"
 import "../App.css";
 
 const CompanyOverview = () => {
   return (
     <div className="mb-20">
       <div className="w-full flex flex-wrap justify-evenly items-center">
-        <div className="mt-16">
-          <img src={truck} alt="track" style={{ width: "500px" }} />
+        <div className="mt-16 mb-20">
+          <img src={truck} alt="track" style={{ width: "500px" }} className="relative"/>
+          <img src={DeliveryBoy} alt="DeliveryBoy" className="absolute 2xl:bottom-[-420px] 2xl:left-[600px] xl:bottom-[-450px] xl:left-[430px] lg:bottom-[-500px] lg:left-[600px] sm:bottom-[-450px] sm:left-[400px]"/>
         </div>
         <div className="gap-4 flex flex-col mt-16">
           <div className="flex justify-start items-center rubikFont">
