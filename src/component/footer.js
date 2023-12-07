@@ -172,7 +172,7 @@ const FooterData = () => {
                     />
                     <div className="grid xl:grid-cols-2 grid-cols-1 gap-2">
                       <div className="send-grad send-hover mt-6 flex gap-2 krubFont cursor-pointer">
-                        <span className="text-[16px] xl:text-[0.833vw] flex items-center ml-7 font-semibold">
+                        <span className="text-[16px] xl:text-[0.833vw] text-[#23212A] flex items-center ml-7 font-semibold">
                           Send Now
                         </span>
                       </div>
@@ -276,7 +276,7 @@ const FooterData = () => {
                     />
                     <div className="grid xl:grid-cols-2 grid-cols-1 gap-2">
                       <div className="send-grad send-hover mt-6 flex gap-2 krubFont cursor-pointer">
-                        <span className="text-[16px] xl:text-[0.833vw] flex items-center ml-7 font-semibold">
+                        <span className="text-[16px] xl:text-[0.833vw] text-[#23212A] flex items-center ml-7 font-semibold">
                           Send Now
                         </span>
                       </div>
@@ -380,7 +380,7 @@ const FooterData = () => {
                     />
                     <div className="grid xl:grid-cols-2 grid-cols-1 gap-2">
                       <div className="send-grad send-hover mt-6 flex gap-2 krubFont cursor-pointer">
-                        <span className="text-[16px] xl:text-[0.833vw] flex items-center ml-7 font-semibold">
+                        <span className="text-[16px] xl:text-[0.833vw] text-[#23212A] flex items-center ml-7 font-semibold">
                           Send Now
                         </span>
                       </div>

@@ -8,11 +8,12 @@ import Supply from "../images/blog/supply.png";
 import LogisticImg from "../images/blogpage/logistic.png";
 import TruckImg from "../images/blogpage/truck.png";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const OurBlog = () => {
   return (
     <div>
-         <div className="bg-[#FFF]">
+      <div className="bg-[#FFF]">
         <div className="w-full grid gap-8 mb-10">
           <div className="flex justify-center items-center w-full rubikFont">
             <img src={Logistic} alt="Logistic" />
@@ -43,16 +44,25 @@ const OurBlog = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>Inland freight a worthy</span>
                     <span>solution for your business</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px" }}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{ lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -108,16 +118,27 @@ const OurBlog = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont text-[#FFBE34]" style={{lineHeight: "normal" }}>
-                    <span>How technology can help </span>
-                    <span>redraw the supply chain map</span>
-                  </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px"}}>
+                  <Link to="/blog/blognews">
+                    <div
+                      className="text-[25px] xl:text-[1.302vw] grid rubikFont text-[#FFBE34]"
+                      style={{ lineHeight: "normal" }}
+                    >
+                      <span>How technology can help </span>
+                      <span>redraw the supply chain map</span>
+                    </div>
+                  </Link>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -173,16 +194,25 @@ const OurBlog = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>Five things you should have </span>
                     <span>ready for your broker</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px"}}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -232,22 +262,31 @@ const OurBlog = () => {
                         28
                       </span>
                       <span className="text-[#666C89] text-[16px] xl:text-[0.833vw] krubFont">
-                       March
+                        March
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>Four simple tips for becoming </span>
                     <span> a healthier truck driver</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px"}}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -288,8 +327,8 @@ const OurBlog = () => {
                 <div className="">
                   <div className="xl:block flex items-center gap-5">
                     <img
-                     src={Calender}
-                     alt="Calender"
+                      src={Calender}
+                      alt="Calender"
                       className="h-[50px] w-[50px]"
                     />
                     <div className="grid">
@@ -303,16 +342,25 @@ const OurBlog = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>What Is The Role Of A </span>
                     <span> Logistics Operations Manager</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px"}}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -349,7 +397,7 @@ const OurBlog = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default OurBlog
+export default OurBlog;

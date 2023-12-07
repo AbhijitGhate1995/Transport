@@ -12,6 +12,7 @@ import ChangeLog from "./changelog";
 import LicensesPage from "./licenses";
 import OurTeamPage from "./ourteampage";
 import BlogPage from "./blogpage";
+import BlogNews from "./blognews";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/licenses" element={<LicensesPage/>}></Route>
           <Route path="/ourteam" element={<OurTeamPage/>}></Route>
           <Route path="/blog" element={<BlogPage/>}></Route>
+          <Route path="/blog/blognews" element={<BlogNews/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

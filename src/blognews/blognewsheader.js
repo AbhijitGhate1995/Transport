@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logistic from "../images/gateway/Logistic.png";
+import CalenderIcon from "../images/blognews/calendaricon.png";
 import { Menubar } from "primereact/menubar";
 import { Link, Outlet } from "react-router-dom";
 import Instagram from "../images/gateway/Instagram.png";
@@ -7,66 +7,67 @@ import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
 
-const AllAssets = () => {
-  const items = [
-    {
-      label: "Home",
-      icon: "",
-      url: "/",
-    },
-    {
-      label: "About",
-      icon: "",
-      url: "/aboutus",
-    },
-    {
-      label: "Project",
-      icon: "",
-    },
-    {
-      label: "Pages",
-      icon: "",
-    },
-    {
-      label: "Contact",
-      icon: "",
-      url: "/contact",
-    },
-  ];
-  const data = [
-    {
-      label: "Pages",
-      items: [
-        {
-          label: "Services",
-          icon: "",
-        },
-        {
-          label: "Team",
-          icon: "",
-        },
-        {
-          label: "Pricing",
-          icon: "",
-          url: "/pricing",
-        },
-        {
-          label: "Blog",
-          icon: "",
-          url:"/blog"
-        },
-      ],
-    },
-  ];
-  const [expanded, setExpanded] = useState(false);
+const BlogNewsHeader = () => {
 
-  const handleMenubarClick = () => {
-    setExpanded(!expanded);
-  };
+    const items = [
+        {
+          label: "Home",
+          icon: "",
+          url: "/",
+        },
+        {
+          label: "About",
+          icon: "",
+          url: "/aboutus",
+        },
+        {
+          label: "Project",
+          icon: "",
+        },
+        {
+          label: "Pages",
+          icon: "",
+        },
+        {
+          label: "Contact",
+          icon: "",
+          url: "/contact",
+        },
+      ];
+      const data = [
+        {
+          label: "Pages",
+          items: [
+            {
+              label: "Services",
+              icon: "",
+            },
+            {
+              label: "Team",
+              icon: "",
+            },
+            {
+              label: "Pricing",
+              icon: "",
+              url: "/pricing",
+            },
+            {
+              label: "Blog",
+              icon: "",
+              url:"/blog"
+            },
+          ],
+        },
+      ];
+      const [expanded, setExpanded] = useState(false);
+    
+      const handleMenubarClick = () => {
+        setExpanded(!expanded);
+      };
 
   return (
     <div>
-      <div className="licenses-bg pb-20">
+          <div className="blog-bg pb-20 mb-20">
         <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
           <div className="lg:hidden flex justify-end items-center">
             <Menubar
@@ -119,22 +120,27 @@ const AllAssets = () => {
         <div className="flex justify-start items-center cursor-pointer">
           <div className="xl:ml-64 xl:mt-36 ml-40 mt-20">
             <div className="grid text-[14px] xl:text-[0.729vw]">
-              <div className="flex text-white rubikFont">
-                <img src={Logistic} alt="Logistic" />
-                <span className="bg-[#041C3780] px-2 py-1">Licenses</span>
+              <div className="flex text-white gap-2">
+                <img src={CalenderIcon} alt="CalenderIcon" style={{width:"70px"}} />
+                <div className="flex flex-col">
+                <span className="rubikFont text-[40px] xl:text-[2.083vw] font-semibold">12</span>
+                <span className="krubFont text-[16px] xl:text-[0.833vw] font-semibold">March</span>
+                </div>
+                
               </div>
               <div
                 className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"
                 style={{ lineHeight: "normal" }}
               >
-                All Assets Licenses
+                <span>How technology can help redraw the</span>
+                <span>supply chain map</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AllAssets;
+export default BlogNewsHeader
