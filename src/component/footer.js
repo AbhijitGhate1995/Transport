@@ -135,7 +135,9 @@ const FooterData = () => {
                       <Link to="/aboutus">
                         <span>About Us</span>
                       </Link>
-                      <span>Our Team</span>
+                      <Link to="/ourteam">
+                        <span>Our Team</span>
+                      </Link>
                       <span>Our Project</span>
                       <Link to="/pricing">
                         <span>Pricing</span>
@@ -238,7 +240,9 @@ const FooterData = () => {
                       <Link to="/aboutus">
                         <span>About Us</span>
                       </Link>
-                      <span>Our Team</span>
+                      <Link to="/ourteam">
+                        <span>Our Team</span>
+                      </Link>
                       <span>Our Project</span>
                       <Link to="/pricing">
                         <span>Pricing</span>
@@ -340,7 +344,9 @@ const FooterData = () => {
                       <Link to="/aboutus">
                         <span>About Us</span>
                       </Link>
-                      <span>Our Team</span>
+                      <Link to="/ourteam">
+                        <span>Our Team</span>
+                      </Link>
                       <span>Our Project</span>
                       <Link to="/pricing">
                         <span>Pricing</span>

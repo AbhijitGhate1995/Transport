@@ -10,6 +10,7 @@ import PricingPage from "./pricing";
 import ProtectionPage from "./protection";
 import ChangeLog from "./changelog";
 import LicensesPage from "./licenses";
+import OurTeamPage from "./ourteampage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/protection" element={<ProtectionPage />}></Route>
           <Route path="/changelog" element={<ChangeLog/>}></Route>
           <Route path="/licenses" element={<LicensesPage/>}></Route>
+          <Route path="/ourteam" element={<OurTeamPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
