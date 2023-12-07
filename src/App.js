@@ -11,6 +11,7 @@ import ProtectionPage from "./protection";
 import ChangeLog from "./changelog";
 import LicensesPage from "./licenses";
 import OurTeamPage from "./ourteampage";
+import BlogPage from "./blogpage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/changelog" element={<ChangeLog/>}></Route>
           <Route path="/licenses" element={<LicensesPage/>}></Route>
           <Route path="/ourteam" element={<OurTeamPage/>}></Route>
+          <Route path="/blog" element={<BlogPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

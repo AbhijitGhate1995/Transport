@@ -49,6 +49,7 @@ const PricingHeader = () => {
             {
               label: "Blog",
               icon: "",
+              url:"/blog"
             },
           ],
         },

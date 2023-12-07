@@ -54,6 +54,7 @@ const OurTeamHeader = () => {
             {
               label: "Blog",
               icon: "",
+              url:"/blog"
             },
           ],
         },

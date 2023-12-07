@@ -53,6 +53,7 @@ const AllAssets = () => {
         {
           label: "Blog",
           icon: "",
+          url:"/blog"
         },
       ],
     },

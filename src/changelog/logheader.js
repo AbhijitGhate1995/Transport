@@ -53,6 +53,7 @@ const LogHeader = () => {
         {
           label: "Blog",
           icon: "",
+          url:"/blog"
         },
       ],
     },

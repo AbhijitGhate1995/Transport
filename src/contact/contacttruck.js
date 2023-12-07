@@ -53,6 +53,7 @@ const ContactTruck = () => {
         {
           label: "Blog",
           icon: "",
+          url:"/blog"
         },
       ],
     },

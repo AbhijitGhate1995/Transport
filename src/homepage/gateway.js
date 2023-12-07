@@ -56,6 +56,7 @@ const GateWayData = () => {
         {
           label: "Blog",
           icon: "",
+          url:"/blog"
         },
       ],
     },
