@@ -12,7 +12,7 @@ const AirCargoHeader = () => {
     {
       label: "Home",
       icon: "",
-      url: "/",
+      url:"/"
     },
     {
       label: "About",
@@ -22,6 +22,7 @@ const AirCargoHeader = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -40,10 +41,17 @@ const AirCargoHeader = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
+        },
+        {
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",

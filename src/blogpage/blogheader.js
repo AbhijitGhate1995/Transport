@@ -22,6 +22,7 @@ const BlogHeader = () => {
     {
       label: "Project",
       icon: "",
+      url: "/ourproject",
     },
     {
       label: "Pages",
@@ -40,10 +41,17 @@ const BlogHeader = () => {
         {
           label: "Services",
           icon: "",
+          url: "/service",
+        },
+        {
+          label: "Service Single",
+          icon: "",
+          url: "/servicesingle",
         },
         {
           label: "Team",
           icon: "",
+          url: "/ourteam",
         },
         {
           label: "Pricing",
@@ -53,7 +61,7 @@ const BlogHeader = () => {
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },

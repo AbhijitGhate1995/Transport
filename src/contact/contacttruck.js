@@ -17,11 +17,12 @@ const ContactTruck = () => {
     {
       label: "About",
       icon: "",
-      url:"/aboutus",
+      url: "/aboutus",
     },
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -30,7 +31,7 @@ const ContactTruck = () => {
     {
       label: "Contact",
       icon: "",
-      url:"/contact",
+      url: "/contact",
     },
   ];
   const data = [
@@ -40,20 +41,27 @@ const ContactTruck = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
+        },
+        {
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",
           icon: "",
-          url:"/pricing",
+          url: "/pricing",
         },
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },

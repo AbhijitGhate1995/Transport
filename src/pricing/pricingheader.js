@@ -8,52 +8,64 @@ import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
 
 const PricingHeader = () => {
-    const items = [
+  const items = [
+    {
+      label: "Home",
+      icon: "",
+      url:"/"
+    },
+    {
+      label: "About",
+      icon: "",
+      url: "/aboutus",
+    },
+    {
+      label: "Project",
+      icon: "",
+      url:"/ourproject"
+    },
+    {
+      label: "Pages",
+      icon: "",
+    },
+    {
+      label: "Contact",
+      icon: "",
+      url: "/contact",
+    },
+  ];
+  const data = [
+    {
+      label: "Pages",
+      items: [
         {
-          label: "Home",
+          label: "Services",
           icon: "",
+          url:"/service"
         },
         {
-          label: "About",
+          label: "Service Single",
           icon: "",
+          url:"/servicesingle"
         },
         {
-          label: "Project",
+          label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
-          label: "Pages",
+          label: "Pricing",
           icon: "",
+          url: "/pricing",
         },
         {
-          label: "Contact",
+          label: "Blog",
           icon: "",
+          url: "/blog",
         },
-      ];
-      const data = [
-        {
-          label: "Pages",
-          items: [
-            {
-              label: "Services",
-              icon: "",
-            },
-            {
-              label: "Team",
-              icon: "",
-            },
-            {
-              label: "Pricing",
-              icon: "",
-            },
-            {
-              label: "Blog",
-              icon: "",
-              url:"/blog"
-            },
-          ],
-        },
-      ];
+      ],
+    },
+  ];
       const [expanded, setExpanded] = useState(false);
     
       const handleMenubarClick = () => {

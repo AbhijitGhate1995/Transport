@@ -12,7 +12,7 @@ const ServiceSingleHeader = () => {
     {
       label: "Home",
       icon: "",
-      url: "/",
+      url:"/"
     },
     {
       label: "About",
@@ -22,6 +22,7 @@ const ServiceSingleHeader = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -40,16 +41,17 @@ const ServiceSingleHeader = () => {
         {
           label: "Services",
           icon: "",
-          url: "/service",
+          url:"/service"
         },
         {
-            label: "Service Single",
-            icon:"",
-            url:"/servicesingle"
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",

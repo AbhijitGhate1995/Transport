@@ -12,7 +12,7 @@ const ProtectionHeader = () => {
     {
       label: "Home",
       icon: "",
-      url: "/",
+      url:"/"
     },
     {
       label: "About",
@@ -22,6 +22,7 @@ const ProtectionHeader = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -40,15 +41,17 @@ const ProtectionHeader = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
         },
         {
           label: "Service Single",
-          icon:"",
+          icon: "",
           url:"/servicesingle"
-      },
+        },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",
@@ -58,7 +61,7 @@ const ProtectionHeader = () => {
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },

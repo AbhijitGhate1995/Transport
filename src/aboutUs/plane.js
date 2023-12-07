@@ -21,11 +21,12 @@ const AboutPlane = () => {
     {
       label: "About",
       icon: "",
-      url:"/aboutus",
+      url: "/aboutus",
     },
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -34,7 +35,7 @@ const AboutPlane = () => {
     {
       label: "Contact",
       icon: "",
-      url:"/contact",
+      url: "/contact",
     },
   ];
   const data = [
@@ -44,22 +45,27 @@ const AboutPlane = () => {
         {
           label: "Services",
           icon: "",
-          url:"/service",
+          url:"/service"
         },
         {
-          label: "Our Team",
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
+        },
+        {
+          label: "Team",
           icon: "",
           url:"/ourteam"
         },
         {
           label: "Pricing",
           icon: "",
-          url:"/pricing",
+          url: "/pricing",
         },
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },

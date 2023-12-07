@@ -6,6 +6,7 @@ import "primeicons/primeicons.css";
 import Boat from "../images/blog/boat.png";
 import Supply from "../images/blog/supply.png";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 // import ReadMore from "./images/blog/readmore.png";
 
@@ -43,16 +44,25 @@ const BlogData = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>Inland freight a worthy</span>
                     <span>solution for your business</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px" }}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{ lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -119,16 +129,25 @@ const BlogData = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>How technology can help redraw</span>
                     <span> the supply chain map</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px" }}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -184,16 +203,25 @@ const BlogData = () => {
                   </div>
                 </div>
                 <div className="grid border-l-2 px-4">
-                  <div className="text-[25px] xl:text-[1.302vw] grid rubikFont" style={{lineHeight: "normal" }}>
+                  <div
+                    className="text-[25px] xl:text-[1.302vw] grid rubikFont"
+                    style={{ lineHeight: "normal" }}
+                  >
                     <span>Five things you should have </span>
                     <span>ready for your broker</span>
                   </div>
-                  <div className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont" style={{lineHeight: "24.244px"}}>
+                  <div
+                    className="text-[#666C89] text-[16px] xl:text-[0.833vw] grid krubFont"
+                    style={{ lineHeight: "24.244px" }}
+                  >
                     <span>We are dedicated in creating added value</span>
                     <span>for our customers by implementing modern</span>
                     <span>technology in our work.</span>
                   </div>
-                  <div className="grid text-[#1C1F35] krubFont" style={{lineHeight:"26.644px" }}>
+                  <div
+                    className="grid text-[#1C1F35] krubFont"
+                    style={{ lineHeight: "26.644px" }}
+                  >
                     <span className="flex items-center gap-1">
                       <i
                         className="pi pi-circle-fill"
@@ -229,9 +257,11 @@ const BlogData = () => {
           </div>
           <div className="w-full flex justify-center items-center cursor-pointer">
             <div className="morework-grad morework-hover flex items-center justify-center">
-              <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont">
-                More Blog
-              </span>
+              <Link to="/blog">
+                <span className="text-[16px] xl:text-[0.833vw] flex font-medium text-white krubFont cursor-pointer">
+                  More Blog
+                </span>
+              </Link>
             </div>
           </div>
         </div>

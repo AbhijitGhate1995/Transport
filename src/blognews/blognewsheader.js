@@ -9,56 +9,64 @@ import Linkdin from "../images/gateway/Linkdin.png";
 
 const BlogNewsHeader = () => {
 
-    const items = [
+  const items = [
+    {
+      label: "Home",
+      icon: "",
+      url:"/"
+    },
+    {
+      label: "About",
+      icon: "",
+      url: "/aboutus",
+    },
+    {
+      label: "Project",
+      icon: "",
+      url:"/ourproject"
+    },
+    {
+      label: "Pages",
+      icon: "",
+    },
+    {
+      label: "Contact",
+      icon: "",
+      url: "/contact",
+    },
+  ];
+  const data = [
+    {
+      label: "Pages",
+      items: [
         {
-          label: "Home",
+          label: "Services",
           icon: "",
-          url: "/",
+          url:"/service"
         },
         {
-          label: "About",
+          label: "Service Single",
           icon: "",
-          url: "/aboutus",
+          url:"/servicesingle"
         },
         {
-          label: "Project",
+          label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
-          label: "Pages",
+          label: "Pricing",
           icon: "",
+          url: "/pricing",
         },
         {
-          label: "Contact",
+          label: "Blog",
           icon: "",
-          url: "/contact",
+          url: "/blog",
         },
-      ];
-      const data = [
-        {
-          label: "Pages",
-          items: [
-            {
-              label: "Services",
-              icon: "",
-            },
-            {
-              label: "Team",
-              icon: "",
-            },
-            {
-              label: "Pricing",
-              icon: "",
-              url: "/pricing",
-            },
-            {
-              label: "Blog",
-              icon: "",
-              url:"/blog"
-            },
-          ],
-        },
-      ];
+      ],
+    },
+  ];
       const [expanded, setExpanded] = useState(false);
     
       const handleMenubarClick = () => {

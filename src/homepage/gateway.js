@@ -16,6 +16,7 @@ const GateWayData = () => {
     {
       label: "Home",
       icon: "",
+      url:"/"
     },
     {
       label: "About",
@@ -25,6 +26,7 @@ const GateWayData = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -43,10 +45,17 @@ const GateWayData = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
+        },
+        {
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",

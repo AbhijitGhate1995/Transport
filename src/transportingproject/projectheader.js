@@ -10,9 +10,9 @@ import Linkdin from "../images/gateway/Linkdin.png";
 const ProjectHeader = () => {
   const items = [
     {
-      label: "Home",
+      label: "Home",  
       icon: "",
-      url: "/",
+      url:"/"
     },
     {
       label: "About",
@@ -22,6 +22,7 @@ const ProjectHeader = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -40,15 +41,17 @@ const ProjectHeader = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
         },
         {
-            label: "Service Single",
-            icon:"",
-            url:"/servicesingle"
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",

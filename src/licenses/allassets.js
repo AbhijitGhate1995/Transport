@@ -12,7 +12,7 @@ const AllAssets = () => {
     {
       label: "Home",
       icon: "",
-      url: "/",
+      url:"/"
     },
     {
       label: "About",
@@ -22,6 +22,7 @@ const AllAssets = () => {
     {
       label: "Project",
       icon: "",
+      url:"/ourproject"
     },
     {
       label: "Pages",
@@ -40,10 +41,17 @@ const AllAssets = () => {
         {
           label: "Services",
           icon: "",
+          url:"/service"
+        },
+        {
+          label: "Service Single",
+          icon: "",
+          url:"/servicesingle"
         },
         {
           label: "Team",
           icon: "",
+          url:"/ourteam"
         },
         {
           label: "Pricing",
@@ -53,7 +61,7 @@ const AllAssets = () => {
         {
           label: "Blog",
           icon: "",
-          url:"/blog"
+          url: "/blog",
         },
       ],
     },
