@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from "../images/projectaircargo/project.png";
-import Logistic from "../images/gateway/Logistic.png";
 
 const ProjectDetail = () => {
   return (
