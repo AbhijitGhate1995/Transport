@@ -8,8 +8,8 @@ import Logistic from "../images/gateway/Logistic.png";
 
 const LogisticSolution = () => {
   return (
-    <div>
-      <div className="m-10">
+    <div className="">
+      <div className="mb-20">
         <div className="grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1">
           <div className="xl:ml-52 xl:mt-12 ml-40 mt-20 grid gap-2">
             <div
