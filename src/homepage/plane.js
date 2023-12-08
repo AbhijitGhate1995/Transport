@@ -18,7 +18,8 @@ const PlaneData = () => {
           <div className="mt-24 xl:ml-20">
             <div className="">
               <img src={plane} alt="plane" className="relative" />
-              <div className="absolute xl:top-[390px] xl:left-[250px] 2xl:top-[600px] 2xl:left-[350px] lg:top-[360px] lg:left-[80px] md:top-[280px] md:left-[20px] flex icon-grad justify-center items-center gap-4 py-4">
+              <div className="absolute xl:top-[390px] xl:left-[250px] 2xl:top-[600px] 2xl:left-[350px] lg:top-[360px]
+               lg:left-[80px] md:top-[280px] md:left-[20px] sm:top-[450px] sm:left-[150px] flex icon-grad justify-center items-center gap-4 py-4">
                 <img src={planeicon} alt="planeicon" className="" />
                 <div className="grid">
                   <span>Moving your products</span>

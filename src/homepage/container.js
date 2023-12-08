@@ -57,7 +57,9 @@ const ContainerData = () => {
                 </div>
                 <div className="wrapper xl:ml-20 mt-4 flex justify-center items-start">
                   <div className="plane-img relative">
-                    <img src={deliverytime} alt="deliverytime" className="absolute xl:top-[200px] xl:right-[80px] 2xl:top-[250px] 2xl:right-[160px] lg:top-[120px] lg:right-[300px] md:top-[120px] md:right-[300px]"/>
+                    <img src={deliverytime} alt="deliverytime" className="absolute xl:top-[200px] xl:right-[80px]
+                     2xl:top-[250px] 2xl:right-[160px] lg:top-[120px] lg:right-[300px] md:top-[120px] md:right-[300px]
+                     sm:top-[80px] sm:right-[250px]"/>
 
                   </div>
                 </div>

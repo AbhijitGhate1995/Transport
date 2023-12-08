@@ -75,7 +75,7 @@ const FooterData = () => {
   };
   return (
     <div className="grid">
-      <div className="w-full bg-[#091242] px-48 xl:flex flex-wrap pb-8">
+      <div className="w-full bg-[#091242] px-20 xl:flex flex-wrap pb-8">
         <div className="w-full grid grid-cols-1 items-center justify-start mb-8 Footer-Tab py-4">
           <TabView
             activeIndex={activeIndex}
@@ -88,8 +88,8 @@ const FooterData = () => {
               }`}
             >
               <div className="w-full flex justify-evenly items-center">
-                <div className="grid xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-8">
-                  <div className="grid gap-4">
+                <div className="grid xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-16">
+                  <div className="grid gap-6">
                     <div
                       className="text-[#E8E8E8] text-[16px] xl:text-[0.833vw] grid font-medium krubFont"
                       style={{
@@ -127,7 +127,7 @@ const FooterData = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="grid xl:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-2">
+                  <div className="grid xl:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 sm:grid-cols-1">
                     <div
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}

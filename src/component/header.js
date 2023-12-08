@@ -4,18 +4,20 @@ import time from "../images/header/time.png";
 import call from "../images/header/call.png";
 import email from "../images/header/email.png";
 import "../App.css";
-
+import { Link } from "react-router-dom";
 
 const HeaderData = () => {
   return (
     <div className="w-full px-20 py-10 bg-[#091242] xl:flex flex-wrap items-center justify-evenly  gap-28">
       <div className="flex items-center gap-2 md:mb-4 xl:mb-0 rubikFont">
-        <div>
-          <img src={TransitFlow} alt="transit" />
-        </div>
-        <span className="text-[24px] font-semibold text-white">
-          TransitFlow
-        </span>
+        <Link to="/">
+          <div>
+            <img src={TransitFlow} alt="transit" />
+          </div>
+          <span className="text-[24px] font-semibold text-white">
+            TransitFlow
+          </span>
+        </Link>
       </div>
       <div className="grid grid-cols-3 gap-5 krubFont">
         <div className="flex items-center gap-2">

@@ -13,9 +13,9 @@ import "../App.css";
 const TransporterData = () => {
   return (
     <div>
-      <div className="bg-white mx-40 xl:my-0 md:my-20 my-[500px]">
+      <div className="bg-white mx-40 xl:my-0 md:my-20 my-[500px] sm:my-20">
         <div className="w-full grid gap-8">
-          <div className="flex justify-center items-center w-full mt-20 sm:mt-96 md:mt-40 rubikFont">
+          <div className="flex justify-center items-center w-full mt-20 sm:mt-[900px] md:mt-40 rubikFont">
             <img src={Logistic} alt="Logistic" />
             <span className="bg-[#E8E8E880] px-2 py-1 text-[14px] xl:text-[0.729vw]">
               The Transporters

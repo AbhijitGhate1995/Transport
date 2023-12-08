@@ -30,7 +30,7 @@ const GoodnessData = () => {
           <div className="mt-16">
             <img src={person} alt="person" style={{ width: "500px" }}  className="relative"/>
             <img src={building} alt="building" style={{ width: "250px" }} className="absolute xl:bottom-[-1400px] xl:left-[500px]
-             2xl:bottom-[-1450px] 2xl:left-[600px] lg:bottom-[-1900px] lg:left-[260px] md:bottom-[-1850px] md:left-[400px]"/>
+             2xl:bottom-[-1430px] 2xl:left-[600px] lg:bottom-[-1870px] lg:left-[260px] md:bottom-[-1850px] md:left-[400px] sm:bottom-[-2920px] sm:left-[350px]"/>
           </div>
           <div className="gap-4 flex flex-col mt-16">
             <div className="flex gap-4">

@@ -3,7 +3,7 @@ import React from "react";
 const Version = () => {
   return (
     <div>
-      <div className="bg-white mx-60 xl:my-0 md:my-20 my-[500px]">
+      <div className="bg-white mx-36 xl:my-0 md:my-20 my-[500px]">
         <div className="w-full grid bg-[#091242] text-white mt-[100px] pb-20 mb-20">
           <div className="flex justify-center items-center text-[35px] font-bold xl:text-[1.823vw] rubikFont pt-20 gap-8">
             <span>Version 01</span>

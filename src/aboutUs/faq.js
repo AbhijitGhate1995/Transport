@@ -58,7 +58,8 @@ const AboutFaq = () => {
           </div>
         </div>
         <div className="mt-16">
-          <div className="absolute bg-[#111C55] px-8 py-6 grid 2xl:top-[4500px] 2xl:left-[900px] gap-4 z-10 xl:top-[4150px] xl:left-[550px] lg:top-[6400px] md:top-[]">
+          <div className="absolute bg-[#111C55] px-8 py-6 grid 2xl:top-[4370px] 2xl:left-[900px]
+           gap-4 z-10 xl:top-[4050px] xl:left-[550px] lg:top-[6320px] md:top-[6820px] sm:top-[9999px]">
             <div className="flex text-white rubikFont text-[14px] xl:text-[0.729vw]">
               <img src={Logistic} alt="Logistic" />
               <span className="bg-[#041C3780] px-2 py-1">Pricing</span>

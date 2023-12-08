@@ -58,8 +58,8 @@ const AboutusContact = () => {
           </div>
         </div>
         <div className="mt-16">
-          <div className="absolute bg-[#111C55] px-8 py-6 grid 2xl:top-[2220px] 2xl:left-[900px] gap-4 z-10 
-          xl:top-[1950px] xl:left-[550px] lg:top-[2400px] md:top-[2900px] sm:top-[4030px]">
+          <div className="absolute bg-[#111C55] px-8 py-6 grid 2xl:top-[2080px] 2xl:left-[900px] gap-4 z-10 
+          xl:top-[1850px] xl:left-[550px] lg:top-[2300px] md:top-[2780px] sm:top-[3900px]">
             <div className="flex text-white rubikFont text-[14px] xl:text-[0.729vw]">
               <img src={Logistic} alt="Logistic" />
               <span className="bg-[#041C3780] px-2 py-1">Pricing</span>
