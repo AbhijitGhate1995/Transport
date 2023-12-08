@@ -12,7 +12,7 @@ const AboutTranporter = () => {
         <div className="w-full flex flex-wrap justify-evenly items-center">
           <div className="mt-16">
             <img src={Container} alt="Container" style={{ width: "500px" }} className="relative" />
-            <img src={truck} alt="truck"  style={{ width: "220px" }}  className="absolute xl:top-[2000px] xl:left-[500px] 2xl:top-[2250px] 2xl:left-[600px] md:top-[2400px] md:left-[500px] sm:top-[3200px] sm:left-[400px] border-l-8 border-t-8 border-white"/>
+            <img src={truck} alt="truck"  style={{ width: "220px" }}  className="absolute xl:top-[2000px] xl:left-[500px] 2xl:top-[2400px] 2xl:left-[600px] md:top-[2400px] md:left-[500px] sm:top-[3200px] sm:left-[400px] border-l-8 border-t-8 border-white"/>
           </div>
           <div className="gap-4 flex flex-col mt-16">
             <div className="flex justify-start items-center rubikFont">

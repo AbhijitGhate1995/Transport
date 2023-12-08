@@ -153,7 +153,9 @@ const FooterData = () => {
                       className="grid text-16px xl:text-[0.833vw] text-white krubFont"
                       style={{ lineHeight: "40px" }}
                     >
-                      <span>Style Guide</span>
+                      <Link to="/styleguide">
+                        <span>Style Guide</span>
+                      </Link>
                       <Link to="/changelog">
                         <span>Changelog</span>
                       </Link>

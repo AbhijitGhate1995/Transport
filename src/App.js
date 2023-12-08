@@ -18,6 +18,7 @@ import ProjectAirCargo from "./projectaircargo";
 import ServicesPage from "./servicespage";
 import ServiceSingle from "./servicesingle";
 import PageNotFound from "./pagenotfound";
+import StyleGuide from "./styleguide";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/service" element={<ServicesPage/>}></Route>
           <Route path="/servicesingle" element={<ServiceSingle/>}></Route>
           <Route path="/pagenotfound" element={<PageNotFound/>}></Route>
+          <Route path="/styleguide" element={<StyleGuide/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
