@@ -4,6 +4,7 @@ import Logistic from "../images/gateway/Logistic.png";
 import warehouse from "../images/servicepage/warehouseicon.png";
 import shield from "../images/servicepage/shieldicon.png";
 import tree from "../images/servicepage/treeicon.png";
+import building from "../images/servicepage/building.png";
 import "../App.css";
 
 const GoodnessData = () => {
@@ -27,7 +28,9 @@ const GoodnessData = () => {
         </div>
         <div className="w-full flex flex-wrap justify-evenly items-center">
           <div className="mt-16">
-            <img src={person} alt="person" style={{ width: "500px" }} />
+            <img src={person} alt="person" style={{ width: "500px" }}  className="relative"/>
+            <img src={building} alt="building" style={{ width: "250px" }} className="absolute xl:bottom-[-1400px] xl:left-[500px]
+             2xl:bottom-[-1450px] 2xl:left-[600px] lg:bottom-[-1900px] lg:left-[260px] md:bottom-[-1850px] md:left-[400px]"/>
           </div>
           <div className="gap-4 flex flex-col mt-16">
             <div className="flex gap-4">
