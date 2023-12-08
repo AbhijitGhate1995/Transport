@@ -138,7 +138,9 @@ const FooterData = () => {
                       <Link to="/ourteam">
                         <span>Our Team</span>
                       </Link>
-                      <span>Our Project</span>
+                      <Link to="/ourproject">
+                        <span>Our Project</span>
+                      </Link>
                       <Link to="/pricing">
                         <span>Pricing</span>
                       </Link>
@@ -245,7 +247,9 @@ const FooterData = () => {
                       <Link to="/ourteam">
                         <span>Our Team</span>
                       </Link>
-                      <span>Our Project</span>
+                      <Link to="/ourproject">
+                        <span>Our Project</span>
+                      </Link>
                       <Link to="/pricing">
                         <span>Pricing</span>
                       </Link>
@@ -351,7 +355,9 @@ const FooterData = () => {
                       <Link to="/ourteam">
                         <span>Our Team</span>
                       </Link>
-                      <span>Our Project</span>
+                      <Link to="/ourproject">
+                        <span>Our Project</span>
+                      </Link>
                       <Link to="/pricing">
                         <span>Pricing</span>
                       </Link>

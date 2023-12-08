@@ -6,32 +6,39 @@ import Instagram from "../images/gateway/Instagram.png";
 import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
+import { useNavigate } from "react-router-dom";
 
 const AllAssets = () => {
+  const navigate = useNavigate();
+
   const items = [
     {
       label: "Home",
       icon: "",
-      url:"/"
+      command: () => {
+        navigate("/");
+      },
     },
     {
       label: "About",
       icon: "",
-      url: "/aboutus",
+      command: () => {
+        navigate("/aboutus");
+      },
     },
     {
       label: "Project",
       icon: "",
-      url:"/ourproject"
-    },
-    {
-      label: "Pages",
-      icon: "",
+      command: () => {
+        navigate("/ourproject");
+      },
     },
     {
       label: "Contact",
       icon: "",
-      url: "/contact",
+      command: () => {
+        navigate("/contact");
+      },
     },
   ];
   const data = [
@@ -40,28 +47,33 @@ const AllAssets = () => {
       items: [
         {
           label: "Services",
-          icon: "",
-          url:"/service"
+          command: () => {
+            navigate("/service");
+          },
         },
         {
           label: "Service Single",
-          icon: "",
-          url:"/servicesingle"
+          command: () => {
+            navigate("/servicesingle");
+          },
         },
         {
           label: "Team",
-          icon: "",
-          url:"/ourteam"
+          command: () => {
+            navigate("/ourteam");
+          },
         },
         {
           label: "Pricing",
-          icon: "",
-          url: "/pricing",
+          command: () => {
+            navigate("/pricing");
+          },
         },
         {
           label: "Blog",
-          icon: "",
-          url: "/blog",
+          command: () => {
+            navigate("/blog");
+          },
         },
       ],
     },

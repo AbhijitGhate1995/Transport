@@ -10,32 +10,39 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import { Outlet, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AboutPlane = () => {
+  const navigate = useNavigate();
+
   const items = [
     {
       label: "Home",
       icon: "",
-      url:"/"
+      command: () => {
+        navigate("/");
+      },
     },
     {
       label: "About",
       icon: "",
-      url: "/aboutus",
+      command: () => {
+        navigate("/aboutus");
+      },
     },
     {
       label: "Project",
       icon: "",
-      url:"/ourproject"
-    },
-    {
-      label: "Pages",
-      icon: "",
+      command: () => {
+        navigate("/ourproject");
+      },
     },
     {
       label: "Contact",
       icon: "",
-      url: "/contact",
+      command: () => {
+        navigate("/contact");
+      },
     },
   ];
   const data = [
@@ -44,28 +51,33 @@ const AboutPlane = () => {
       items: [
         {
           label: "Services",
-          icon: "",
-          url:"/service"
+          command: () => {
+            navigate("/service");
+          },
         },
         {
           label: "Service Single",
-          icon: "",
-          url:"/servicesingle"
+          command: () => {
+            navigate("/servicesingle");
+          },
         },
         {
           label: "Team",
-          icon: "",
-          url:"/ourteam"
+          command: () => {
+            navigate("/ourteam");
+          },
         },
         {
           label: "Pricing",
-          icon: "",
-          url: "/pricing",
+          command: () => {
+            navigate("/pricing");
+          },
         },
         {
           label: "Blog",
-          icon: "",
-          url: "/blog",
+          command: () => {
+            navigate("/blog");
+          },
         },
       ],
     },

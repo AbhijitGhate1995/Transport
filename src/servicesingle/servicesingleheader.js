@@ -1,37 +1,43 @@
 import React, { useState } from "react";
 import Logistic from "../images/gateway/Logistic.png";
 import { Menubar } from "primereact/menubar";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import Instagram from "../images/gateway/Instagram.png";
 import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
 
 const ServiceSingleHeader = () => {
+  const navigate = useNavigate();
+
   const items = [
     {
       label: "Home",
       icon: "",
-      url:"/"
+      command: () => {
+        navigate("/");
+      },
     },
     {
       label: "About",
       icon: "",
-      url: "/aboutus",
+      command: () => {
+        navigate("/aboutus");
+      },
     },
     {
       label: "Project",
       icon: "",
-      url:"/ourproject"
-    },
-    {
-      label: "Pages",
-      icon: "",
+      command: () => {
+        navigate("/ourproject");
+      },
     },
     {
       label: "Contact",
       icon: "",
-      url: "/contact",
+      command: () => {
+        navigate("/contact");
+      },
     },
   ];
   const data = [
@@ -40,28 +46,33 @@ const ServiceSingleHeader = () => {
       items: [
         {
           label: "Services",
-          icon: "",
-          url:"/service"
+          command: () => {
+            navigate("/service");
+          },
         },
         {
           label: "Service Single",
-          icon: "",
-          url:"/servicesingle"
+          command: () => {
+            navigate("/servicesingle");
+          },
         },
         {
           label: "Team",
-          icon: "",
-          url:"/ourteam"
+          command: () => {
+            navigate("/ourteam");
+          },
         },
         {
           label: "Pricing",
-          icon: "",
-          url: "/pricing",
+          command: () => {
+            navigate("/pricing");
+          },
         },
         {
           label: "Blog",
-          icon: "",
-          url: "/blog",
+          command: () => {
+            navigate("/blog");
+          },
         },
       ],
     },
@@ -129,9 +140,7 @@ const ServiceSingleHeader = () => {
             <div className="grid text-[14px] xl:text-[0.729vw]">
               <div className="flex text-white rubikFont">
                 <img src={Logistic} alt="Logistic" />
-                <span className="bg-[#041C3780] px-2 py-1">
-                Service Single
-                </span>
+                <span className="bg-[#041C3780] px-2 py-1">Service Single</span>
               </div>
               <div
                 className="grid text-white text-[60px] font-bold xl:text-[3.125vw] rubikFont cursor-pointer"

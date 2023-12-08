@@ -1,37 +1,43 @@
 import React, { useState } from "react";
 import Logistic from "../images/gateway/Logistic.png";
 import { Menubar } from "primereact/menubar";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import Instagram from "../images/gateway/Instagram.png";
 import Facebook from "../images/gateway/Facebook.png";
 import Twitter from "../images/gateway/Twitter.png";
 import Linkdin from "../images/gateway/Linkdin.png";
 
 const PageHeader = () => {
+  const navigate = useNavigate();
+
   const items = [
     {
       label: "Home",
       icon: "",
-      url:"/"
+      command: () => {
+        navigate("/");
+      },
     },
     {
       label: "About",
       icon: "",
-      url: "/aboutus",
+      command: () => {
+        navigate("/aboutus");
+      },
     },
     {
       label: "Project",
       icon: "",
-      url:"/ourproject"
-    },
-    {
-      label: "Pages",
-      icon: "",
+      command: () => {
+        navigate("/ourproject");
+      },
     },
     {
       label: "Contact",
       icon: "",
-      url: "/contact",
+      command: () => {
+        navigate("/contact");
+      },
     },
   ];
   const data = [
@@ -40,40 +46,45 @@ const PageHeader = () => {
       items: [
         {
           label: "Services",
-          icon: "",
-          url:"/service"
+          command: () => {
+            navigate("/service");
+          },
         },
         {
           label: "Service Single",
-          icon: "",
-          url:"/servicesingle"
+          command: () => {
+            navigate("/servicesingle");
+          },
         },
         {
           label: "Team",
-          icon: "",
-          url:"/ourteam"
+          command: () => {
+            navigate("/ourteam");
+          },
         },
         {
           label: "Pricing",
-          icon: "",
-          url: "/pricing",
+          command: () => {
+            navigate("/pricing");
+          },
         },
         {
           label: "Blog",
-          icon: "",
-          url: "/blog",
+          command: () => {
+            navigate("/blog");
+          },
         },
       ],
     },
   ];
-      const [expanded, setExpanded] = useState(false);
-    
-      const handleMenubarClick = () => {
-        setExpanded(!expanded);
-      };
+  const [expanded, setExpanded] = useState(false);
+
+  const handleMenubarClick = () => {
+    setExpanded(!expanded);
+  };
   return (
     <div>
-           <div className="pagenotfound-bg pb-20">
+      <div className="pagenotfound-bg pb-20">
         <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
           <div className="lg:hidden flex justify-end items-center">
             <Menubar
@@ -141,7 +152,7 @@ const PageHeader = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PageHeader
+export default PageHeader;
