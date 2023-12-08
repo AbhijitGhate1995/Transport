@@ -1,10 +1,10 @@
 import React from "react";
 import HeaderData from "../component/header";
 import FooterData from "../component/footer";
-import AboutFaq from "../aboutUs/faq";
 import ContactTruck from "./contacttruck";
 import AboutImages from "../aboutUs/images";
 import MoreContact from "./moreContact";
+import AboutusContact from "./aboutuscontact";
 
 const ConatctPage = () => {
   return (
@@ -13,7 +13,7 @@ const ConatctPage = () => {
       <ContactTruck/>
       <MoreContact/>
       <AboutImages/>
-      <AboutFaq/>
+      <AboutusContact/>
       <FooterData />
     </div>
   );
