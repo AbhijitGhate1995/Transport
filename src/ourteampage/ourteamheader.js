@@ -23,7 +23,7 @@ const OurTeamHeader = () => {
     {
       label: "Project",
       icon: "",
-      url:"/ourproject"
+      url:"/ourproject",
     },
     {
       label: "Pages",
