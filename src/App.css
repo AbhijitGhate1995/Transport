@@ -498,4 +498,7 @@ width: 0px !important;
   display: flex;
   justify-content: center;
 }
+.MenuBar-class .p-menubar-button{
+  background-color: black;
+}
 

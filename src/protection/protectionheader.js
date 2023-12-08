@@ -86,15 +86,7 @@ const ProtectionHeader = () => {
     <div className="">
       <div className="protection-bg pb-20">
         <div className="xl:flex flex-wrap justify-center bg-[#09124240] krubFont">
-          <div className="lg:hidden flex justify-end items-center">
-            <Menubar
-              model={items}
-              className={`px-4 py-4 bg-[#1F2A69] rounded-lg text-white ${
-                expanded ? "w-32" : "w-16"
-              } MenuBar-class`}
-              onClick={handleMenubarClick}
-            />
-          </div>
+       
           <div className="hidden lg:flex justify-center items-center">
             <div className="text-white gap-6 px-8 flex items-center justify-center nav-menu-button">
               <div className="flex-1">
@@ -134,6 +126,15 @@ const ProtectionHeader = () => {
             </div>
           </div>
         </div>
+        <div className="lg:hidden flex justify-start items-center">
+            <Menubar
+              model={items}
+              className={`px-4 py-4 bg-[#1F2A69] rounded-lg text-white ${
+                expanded ? "w-full" : "w-16"
+              } MenuBar-class`}
+              onClick={handleMenubarClick}
+            />
+          </div>
         <div className="flex justify-start items-center cursor-pointer">
           <div className="xl:ml-64 xl:mt-36 ml-40 mt-20">
             <div className="grid text-[14px] xl:text-[0.729vw]">
